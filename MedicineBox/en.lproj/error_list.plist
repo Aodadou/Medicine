@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<string></string>
+	<key>1</key>
+	<string>fail</string>
+	<key>2</key>
+	<string>password error!</string>
+	<key>3</key>
+	<string>username not exist!</string>
+	<key>4</key>
+	<string>username has exist!</string>
+	<key>5</key>
+	<string>device not on line!</string>
+	<key>6</key>
+	<string>device exist!</string>
+	<key>7</key>
+	<string>device not exist!</string>
+	<key>8</key>
+	<string>user don&apos;t have the mac!</string>
+	<key>9</key>
+	<string>email is wrong!</string>
+	<key>10</key>
+	<string>macList not exist!</string>
+	<key>11</key>
+	<string>user forbid!</string>
+	<key>12</key>
+	<string>operate failed!</string>
+	<key>13</key>
+	<string>control cmd error!</string>
+	<key>14</key>
+	<string>the mac&apos;s password error!</string>
+	<key>15</key>
+	<string>the mac has been binded!</string>
+	<key>16</key>
+	<string>devid error.</string>
+	<key>17</key>
+	<string>password not equals</string>
+	<key>18</key>
+	<string>connect to master fail</string>
+	<key>19</key>
+	<string>params to master error</string>
+	<key>20</key>
+	<string>command not implement</string>
+	<key>21</key>
+	<string>device type not equals</string>
+	<key>22</key>
+	<string>parameter error</string>
+	<key>23</key>
+	<string>button not equals in ir study</string>
+	<key>24</key>
+	<string>uuid or validateCode error!</string>
+	<key>25</key>
+	<string>fail to send the email!</string>
+	<key>26</key>
+	<string>there is no forgot password log!</string>
+	<key>27</key>
+	<string>your server is not correct!</string>
+	<key>28</key>
+	<string>Email has been registered, please login directly!</string>
+	<key>29</key>
+	<string>there is no register log!</string>
+	<key>30</key>
+	<string>Verification code has been timed out!</string>
+	<key>31</key>
+	<string>Verification code is not the same!</string>
+	<key>32</key>
+	<string>Device not exist!</string>
+	<key>33</key>
+	<string>Device has been binded.</string>
+	<key>34</key>
+	<string>Device password is error.</string>
+	<key>35</key>
+	<string>server connect to mac fail</string>
+	<key>36</key>
+	<string>pluginDevice exist!</string>
+	<key>37</key>
+	<string>dev id is null</string>
+	<key>38</key>
+	<string>status is null!</string>
+	<key>39</key>
+	<string>group name exist</string>
+	<key>40</key>
+	<string>The server is busy now, please try again later</string>
+	<key>41</key>
+	<string>uuid is wrony</string>
+	<key>42</key>
+	<string>mac unbinded this sn</string>
+	<key>43</key>
+	<string>the user has been binded one wifiMac!</string>
+	<key>44</key>
+	<string>user name format error!</string>
+	<key>45</key>
+	<string>The user didn&apos;t log in!</string>
+	<key>46</key>
+	<string>don&apos;t has image of this device!</string>
+	<key>47</key>
+	<string>date format is wrong!</string>
+	<key>48</key>
+	<string>date is wrong!</string>
+	<key>49</key>
+	<string>password is error!</string>
+	<key>50</key>
+	<string>the email is not registered!</string>
+	<key>51</key>
+	<string>the phone has registered!</string>
+	<key>52</key>
+	<string>city is wrong!</string>
+	<key>53</key>
+	<string>unknow city!</string>
+	<key>54</key>
+	<string>the email has been binded by other!</string>
+	<key>55</key>
+	<string>the phone has been binded by other!</string>
+	<key>56</key>
+	<string>the device not online!</string>
+	<key>57</key>
+	<string>group not exist!</string>
+	<key>58</key>
+	<string>the sns has been bined by other!</string>
+	<key>59</key>
+	<string>The company not exist!</string>
+	<key>60</key>
+	<string>data is wrong!</string>
+	<key>61</key>
+	<string>the user not bind the device!</string>
+	<key>62</key>
+	<string>drug not existed</string>
+	<key>63</key>
+	<string>the user has binded the phone!</string>
+	<key>64</key>
+	<string>the drug scheme set failed!</string>
+	<key>65</key>
+	<string>the user does not bind the phone!</string>
+</dict>
+</plist>

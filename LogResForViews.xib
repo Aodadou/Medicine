@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Kj2-Mx-D1I" userLabel="登录" customClass="LoginVIew" customModule="MedicineBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="450"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="ebv-OW-9Sj">
+                    <rect key="frame" x="20" y="12" width="360" height="66"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框选中状态.png" id="gft-fv-VRU">
+                            <rect key="frame" x="21" y="5" width="318" height="71"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框常态.png" id="V2j-xg-NCy">
+                            <rect key="frame" x="28" y="6" width="303" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框不可按.png" id="bL7-Br-vam">
+                            <rect key="frame" x="28" y="6" width="303" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="账号" textAlignment="center" minimumFontSize="17" id="msj-01-4xh">
+                            <rect key="frame" x="75" y="6" width="209" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
+                            <connections>
+                                <outlet property="delegate" destination="Kj2-Mx-D1I" id="rkM-rb-6de"/>
+                            </connections>
+                        </textField>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="账号小人.png" id="j1J-9P-fkC">
+                            <rect key="frame" x="28" y="6" width="55" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="suR-a7-hyO">
+                    <rect key="frame" x="20" y="102" width="360" height="66"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框选中状态.png" id="Lyn-Vs-Ifs">
+                            <rect key="frame" x="21" y="5" width="318" height="71"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框常态.png" id="FsG-ct-Xgj">
+                            <rect key="frame" x="28" y="6" width="303" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框不可按.png" id="Abd-cN-pZE">
+                            <rect key="frame" x="28" y="6" width="303" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5vq-R7-6lC">
+                            <rect key="frame" x="276" y="6" width="55" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="显示密码.png"/>
+                            <state key="selected" image="显示密码按下.png"/>
+                            <state key="highlighted" image="显示密码按下.png"/>
+                            <connections>
+                                <action selector="ActionShowPwd:" destination="Kj2-Mx-D1I" eventType="touchUpInside" id="WBr-uL-oFz"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码" textAlignment="center" minimumFontSize="17" id="lLA-yB-FOR">
+                            <rect key="frame" x="75" y="6" width="209" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="Kj2-Mx-D1I" id="bcQ-w1-6eD"/>
+                            </connections>
+                        </textField>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="密码锁.png" id="SMF-0N-6ua">
+                            <rect key="frame" x="28" y="6" width="55" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="F2O-cR-BpW">
+                    <rect key="frame" x="20" y="192" width="360" height="66"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zWC-cl-Rae">
+                            <rect key="frame" x="21" y="-11" width="319" height="81"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                            <state key="normal" title="登录" backgroundImage="注册，登陆按钮.png"/>
+                            <connections>
+                                <action selector="ActionLogin:" destination="Kj2-Mx-D1I" eventType="touchUpInside" id="0IO-S7-IBZ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnShowPwd" destination="5vq-R7-6lC" id="e12-fC-iho"/>
+                <outlet property="imgSelected" destination="gft-fv-VRU" id="FZ1-vi-W31"/>
+                <outlet property="imgSelectedPwd" destination="Lyn-Vs-Ifs" id="QFy-2V-m2G"/>
+                <outlet property="tfAccount" destination="msj-01-4xh" id="d8M-zz-182"/>
+                <outlet property="tfPassword" destination="lLA-yB-FOR" id="IK5-Qj-tel"/>
+            </connections>
+            <point key="canvasLocation" x="243" y="58"/>
+        </view>
+        <view contentMode="scaleToFill" id="5YY-YP-GSB" userLabel="注册或找回密码" customClass="ResFindVIew" customModule="MedicineBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="450"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="0ir-Y3-d6Z">
+                    <rect key="frame" x="20" y="12" width="360" height="66"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框选中状态.png" id="EaV-3T-ba9">
+                            <rect key="frame" x="22" y="5" width="318" height="71"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框常态.png" id="Q1Q-jG-kBf">
+                            <rect key="frame" x="29" y="6" width="303" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框不可按.png" id="dLs-nu-7Ef">
+                            <rect key="frame" x="29" y="6" width="303" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="手机号" textAlignment="center" minimumFontSize="17" id="Y00-rK-V1c">
+                            <rect key="frame" x="76" y="6" width="208" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                            <connections>
+                                <outlet property="delegate" destination="5YY-YP-GSB" id="Ni2-Hu-4WA"/>
+                            </connections>
+                        </textField>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="账号小人.png" id="QS8-hT-cwJ">
+                            <rect key="frame" x="29" y="6" width="55" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="bte-TT-C6y">
+                    <rect key="frame" x="20" y="102" width="360" height="66"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框常态.png" id="tdP-wz-6bT">
+                            <rect key="frame" x="28" y="6" width="303" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="验证码输入框常态.png" id="Jft-y3-V8B">
+                            <rect key="frame" x="30" y="6" width="210" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="验证码输入框选中.png" id="UR9-dR-jG6">
+                            <rect key="frame" x="23" y="6" width="225" height="71"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="验证码" textAlignment="center" minimumFontSize="17" id="SIv-ku-XpL">
+                            <rect key="frame" x="51" y="6" width="168" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <connections>
+                                <outlet property="delegate" destination="5YY-YP-GSB" id="fnU-GZ-F2c"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="k0P-Il-wfF">
+                            <rect key="frame" x="237" y="-2" width="105" height="79"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                            <state key="normal" title="获取验证码" backgroundImage="获取验证码按钮常态.png"/>
+                            <state key="disabled" backgroundImage="验证码不可按.png"/>
+                            <state key="highlighted" backgroundImage="获取验证码按钮按下.png"/>
+                            <connections>
+                                <action selector="ActionGetCode:" destination="5YY-YP-GSB" eventType="touchUpInside" id="GbV-hd-08N"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="g0q-J3-ZZ8">
+                    <rect key="frame" x="20" y="192" width="360" height="66"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框选中状态.png" id="S3U-hV-wC1">
+                            <rect key="frame" x="21" y="5" width="318" height="71"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框常态.png" id="fZv-sB-tFa">
+                            <rect key="frame" x="28" y="6" width="303" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框不可按.png" id="YYa-IP-A3H">
+                            <rect key="frame" x="28" y="6" width="303" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0Rs-zU-L1h">
+                            <rect key="frame" x="276" y="6" width="55" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="显示密码.png"/>
+                            <state key="selected" image="显示密码按下.png"/>
+                            <state key="highlighted" image="显示密码按下.png"/>
+                            <connections>
+                                <action selector="ActionShowPwd:" destination="5YY-YP-GSB" eventType="touchUpInside" id="KZf-wc-NNe"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码" textAlignment="center" minimumFontSize="17" id="0pO-uH-dfM">
+                            <rect key="frame" x="75" y="6" width="209" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="5YY-YP-GSB" id="6py-fM-5Vs"/>
+                            </connections>
+                        </textField>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="密码锁.png" id="myR-6y-vlp">
+                            <rect key="frame" x="28" y="6" width="55" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="AGG-el-bZX">
+                    <rect key="frame" x="20" y="282" width="360" height="66"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框选中状态.png" id="uIz-MZ-tSc">
+                            <rect key="frame" x="21" y="5" width="318" height="71"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框常态.png" id="uOl-KI-lBy">
+                            <rect key="frame" x="28" y="6" width="303" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="输入框不可按.png" id="7qs-25-9AP">
+                            <rect key="frame" x="28" y="6" width="303" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Hpv-bB-omH">
+                            <rect key="frame" x="276" y="6" width="55" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="显示密码.png"/>
+                            <state key="selected" image="显示密码按下.png"/>
+                            <state key="highlighted" image="显示密码按下.png"/>
+                            <connections>
+                                <action selector="ActionShowPwd:" destination="5YY-YP-GSB" eventType="touchUpInside" id="7MW-UO-mc6"/>
+                            </connections>
+                        </button>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="密码锁.png" id="IdM-aC-16D">
+                            <rect key="frame" x="28" y="6" width="55" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="确认密码" textAlignment="center" minimumFontSize="17" id="MP4-ej-75K">
+                            <rect key="frame" x="75" y="6" width="209" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="5YY-YP-GSB" id="OLt-gL-Gj7"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="dlc-Qt-lyh">
+                    <rect key="frame" x="20" y="372" width="360" height="66"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZaJ-xz-Udh">
+                            <rect key="frame" x="21" y="-11" width="319" height="81"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
+                            <state key="normal" title="注册" backgroundImage="注册，登陆按钮.png"/>
+                            <connections>
+                                <action selector="ActionOK:" destination="5YY-YP-GSB" eventType="touchUpInside" id="IFC-hf-kri"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnGetCode" destination="k0P-Il-wfF" id="6pI-BG-5Nh"/>
+                <outlet property="btnOk" destination="ZaJ-xz-Udh" id="MXf-5A-aBK"/>
+                <outlet property="btnShowAPwd" destination="Hpv-bB-omH" id="dNT-cC-3ef"/>
+                <outlet property="btnShowPwd" destination="0Rs-zU-L1h" id="vK3-ss-MTp"/>
+                <outlet property="imgDIsableAPwd" destination="7qs-25-9AP" id="G4k-nf-x9k"/>
+                <outlet property="imgDisablePwd" destination="YYa-IP-A3H" id="T0B-Lv-fSs"/>
+                <outlet property="selctedAPwd" destination="uIz-MZ-tSc" id="359-y4-waj"/>
+                <outlet property="selctedAcc" destination="EaV-3T-ba9" id="LoM-jD-TUx"/>
+                <outlet property="selctedPwd" destination="S3U-hV-wC1" id="FSb-Cv-V3m"/>
+                <outlet property="selectedCOde" destination="UR9-dR-jG6" id="C6e-DR-4VB"/>
+                <outlet property="tfAPwd" destination="MP4-ej-75K" id="gfN-VG-sZg"/>
+                <outlet property="tfAccount" destination="Y00-rK-V1c" id="Dak-vj-nsl"/>
+                <outlet property="tfCode" destination="SIv-ku-XpL" id="6Ee-xn-bfM"/>
+                <outlet property="tfPwd" destination="0pO-uH-dfM" id="deG-O2-PXZ"/>
+            </connections>
+            <point key="canvasLocation" x="729" y="58"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="密码锁.png" width="13" height="16"/>
+        <image name="显示密码.png" width="53" height="53"/>
+        <image name="显示密码按下.png" width="53" height="53"/>
+        <image name="注册，登陆按钮.png" width="319" height="81"/>
+        <image name="获取验证码按钮常态.png" width="100" height="81"/>
+        <image name="获取验证码按钮按下.png" width="100" height="81"/>
+        <image name="账号小人.png" width="16" height="16"/>
+        <image name="输入框不可按.png" width="303" height="55"/>
+        <image name="输入框常态.png" width="303" height="55"/>
+        <image name="输入框选中状态.png" width="318" height="71"/>
+        <image name="验证码不可按.png" width="84" height="55"/>
+        <image name="验证码输入框常态.png" width="210" height="55"/>
+        <image name="验证码输入框选中.png" width="225" height="71"/>
+    </resources>
+</document>

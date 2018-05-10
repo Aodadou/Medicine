@@ -1,0 +1,2277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1CE87866A94688DB61C102 /* Pods_MedicineBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6A2820087F50483B994620 /* Pods_MedicineBox.framework */; };
+		0B4E8CB12063C558000B1C5C /* UIViewController+BarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4E8CAF2063C558000B1C5C /* UIViewController+BarButton.m */; };
+		0B77C1461F1855F7007D1495 /* TokenSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B77C1451F1855F7007D1495 /* TokenSocket.swift */; };
+		0B829F1D1F0CE65300F46D8F /* PushCMDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B829F1C1F0CE65300F46D8F /* PushCMDHelper.m */; };
+		0B983B152091BEE400DC49AA /* 日历选中按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B983B142091BEE400DC49AA /* 日历选中按钮@2x.png */; };
+		0BAE48051F6BCFD400A3692C /* InputDrugInHandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAE48041F6BCFD400A3692C /* InputDrugInHandVC.swift */; };
+		0BC045B21FF22B7B00597223 /* MyAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC045B11FF22B7B00597223 /* MyAlertView.swift */; };
+		1286FD3A23824488A4C9B44D /* Pods_MedicineBoxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC95219CFA3FDC01EB75E39 /* Pods_MedicineBoxUITests.framework */; };
+		1824E3B31D815F880050F0CE /* DrugInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824E3B21D815F880050F0CE /* DrugInfoVC.swift */; };
+		1826A02B1D41BA8000D483DB /* LoginVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826A02A1D41BA8000D483DB /* LoginVIew.swift */; };
+		1826A02D1D41BAA700D483DB /* ResFindVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826A02C1D41BAA700D483DB /* ResFindVIew.swift */; };
+		1826A03D1D41D70D00D483DB /* ASIHTTPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826A0341D41D70D00D483DB /* ASIHTTPHelper.m */; };
+		1826A03F1D41D70D00D483DB /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826A0381D41D70D00D483DB /* ImageUtils.m */; };
+		1826A0401D41D70D00D483DB /* ThreeDES.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826A03A1D41D70D00D483DB /* ThreeDES.m */; };
+		1826A0411D41D70D00D483DB /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826A03C1D41D70D00D483DB /* Util.m */; };
+		1826A0461D41D76000D483DB /* GlobalMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826A0431D41D76000D483DB /* GlobalMethod.m */; };
+		1826A0471D41D76000D483DB /* MyGlobalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826A0451D41D76000D483DB /* MyGlobalData.m */; };
+		1826A04D1D41D79200D483DB /* PublicCmdHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826A04A1D41D79200D483DB /* PublicCmdHelper.m */; };
+		1826A04E1D41D79200D483DB /* SessionManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826A04C1D41D79200D483DB /* SessionManger.m */; };
+		1826A0521D41D7A700D483DB /* AppUpdateByAppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826A0511D41D7A700D483DB /* AppUpdateByAppStore.m */; };
+		1826A0571D41D7E300D483DB /* Protocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1826A0561D41D7E300D483DB /* Protocol.framework */; };
+		1826A05C1D41FA6600D483DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1826A05B1D41FA6600D483DB /* Foundation.framework */; };
+		1826A05E1D41FAD000D483DB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1826A05D1D41FAD000D483DB /* libz.tbd */; };
+		1826A0601D420C1B00D483DB /* LogResForViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826A05F1D420C1B00D483DB /* LogResForViews.xib */; };
+		183410981D64A1E8009A10A4 /* CycleSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183410971D64A1E8009A10A4 /* CycleSetView.swift */; };
+		1834109E1D64A79F009A10A4 /* BirthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834109C1D64A79F009A10A4 /* BirthView.m */; };
+		1834109F1D64A79F009A10A4 /* BirthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1834109D1D64A79F009A10A4 /* BirthView.xib */; };
+		1836B4BF1D421BD7002CF493 /* UtilSw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836B4BE1D421BD7002CF493 /* UtilSw.swift */; };
+		184928391D3F115D006D2D1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184928381D3F115D006D2D1C /* AppDelegate.swift */; };
+		1849283B1D3F115D006D2D1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849283A1D3F115D006D2D1C /* ViewController.swift */; };
+		1849283E1D3F115D006D2D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1849283C1D3F115D006D2D1C /* Main.storyboard */; };
+		184928401D3F115D006D2D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1849283F1D3F115D006D2D1C /* Assets.xcassets */; };
+		184928431D3F115D006D2D1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184928411D3F115D006D2D1C /* LaunchScreen.storyboard */; };
+		1849284E1D3F115D006D2D1C /* MedicineBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849284D1D3F115D006D2D1C /* MedicineBoxTests.swift */; };
+		184928591D3F115D006D2D1C /* MedicineBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184928581D3F115D006D2D1C /* MedicineBoxUITests.swift */; };
+		184929171D3F12DF006D2D1C /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928681D3F12DF006D2D1C /* logo@2x.png */; };
+		184929181D3F12DF006D2D1C /* 个人信息头像显示区域@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928691D3F12DF006D2D1C /* 个人信息头像显示区域@2x.png */; };
+		184929191D3F12DF006D2D1C /* 减一个@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849286A1D3F12DF006D2D1C /* 减一个@2x.png */; };
+		1849291A1D3F12DF006D2D1C /* 减一个按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849286B1D3F12DF006D2D1C /* 减一个按下@2x.png */; };
+		1849291B1D3F12DF006D2D1C /* 列表显示头像区域@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849286C1D3F12DF006D2D1C /* 列表显示头像区域@2x.png */; };
+		1849291C1D3F12DF006D2D1C /* 列表栏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849286D1D3F12DF006D2D1C /* 列表栏@2x.png */; };
+		1849291D1D3F12DF006D2D1C /* 列表框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849286E1D3F12DF006D2D1C /* 列表框@2x.png */; };
+		1849291E1D3F12DF006D2D1C /* 列表横分割线@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849286F1D3F12DF006D2D1C /* 列表横分割线@2x.png */; };
+		1849291F1D3F12DF006D2D1C /* 列表竖分割线@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928701D3F12DF006D2D1C /* 列表竖分割线@2x.png */; };
+		184929201D3F12DF006D2D1C /* 加一个@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928711D3F12DF006D2D1C /* 加一个@2x.png */; };
+		184929211D3F12DF006D2D1C /* 加一个按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928721D3F12DF006D2D1C /* 加一个按下@2x.png */; };
+		184929221D3F12DF006D2D1C /* 右上角显示头像区域@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928731D3F12DF006D2D1C /* 右上角显示头像区域@2x.png */; };
+		184929231D3F12DF006D2D1C /* 定时底框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928741D3F12DF006D2D1C /* 定时底框@2x.png */; };
+		184929241D3F12DF006D2D1C /* 定时提醒ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928751D3F12DF006D2D1C /* 定时提醒ICON@2x.png */; };
+		184929251D3F12DF006D2D1C /* 定时提醒ICON选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928761D3F12DF006D2D1C /* 定时提醒ICON选中@2x.png */; };
+		184929261D3F12DF006D2D1C /* 定时重复时间框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928771D3F12DF006D2D1C /* 定时重复时间框@2x.png */; };
+		184929271D3F12DF006D2D1C /* 定时重复没选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928781D3F12DF006D2D1C /* 定时重复没选中@2x.png */; };
+		184929281D3F12DF006D2D1C /* 定时重复选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928791D3F12DF006D2D1C /* 定时重复选中@2x.png */; };
+		184929291D3F12DF006D2D1C /* 密码显示小球@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849287A1D3F12DF006D2D1C /* 密码显示小球@2x.png */; };
+		1849292A1D3F12DF006D2D1C /* 密码锁@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849287B1D3F12DF006D2D1C /* 密码锁@2x.png */; };
+		1849292B1D3F12DF006D2D1C /* 已连接按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849287C1D3F12DF006D2D1C /* 已连接按钮@2x.png */; };
+		1849292C1D3F12DF006D2D1C /* 已连接按钮按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849287D1D3F12DF006D2D1C /* 已连接按钮按下@2x.png */; };
+		1849292D1D3F12DF006D2D1C /* 延时取药@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849287E1D3F12DF006D2D1C /* 延时取药@2x.png */; };
+		1849292E1D3F12DF006D2D1C /* 当前时间选中圈@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849287F1D3F12DF006D2D1C /* 当前时间选中圈@2x.png */; };
+		1849292F1D3F12DF006D2D1C /* 扫描ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928801D3F12DF006D2D1C /* 扫描ICON@2x.png */; };
+		184929301D3F12DF006D2D1C /* 扫描ICON按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928811D3F12DF006D2D1C /* 扫描ICON按下@2x.png */; };
+		184929311D3F12DF006D2D1C /* 扫描横条@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928821D3F12DF006D2D1C /* 扫描横条@2x.png */; };
+		184929321D3F12DF006D2D1C /* 扫码边框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928831D3F12DF006D2D1C /* 扫码边框@2x.png */; };
+		184929331D3F12DF006D2D1C /* 按时取药@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928841D3F12DF006D2D1C /* 按时取药@2x.png */; };
+		184929341D3F12DF006D2D1C /* 日历ICON.@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928851D3F12DF006D2D1C /* 日历ICON.@2x.png */; };
+		184929351D3F12DF006D2D1C /* 日历ICON选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928861D3F12DF006D2D1C /* 日历ICON选中@2x.png */; };
+		184929361D3F12DF006D2D1C /* 日历右箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928871D3F12DF006D2D1C /* 日历右箭头@2x.png */; };
+		184929371D3F12DF006D2D1C /* 日历右箭头按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928881D3F12DF006D2D1C /* 日历右箭头按下@2x.png */; };
+		184929381D3F12DF006D2D1C /* 日历左箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928891D3F12DF006D2D1C /* 日历左箭头@2x.png */; };
+		184929391D3F12DF006D2D1C /* 日历左箭头按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849288A1D3F12DF006D2D1C /* 日历左箭头按下@2x.png */; };
+		1849293A1D3F12DF006D2D1C /* 日历底版@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849288B1D3F12DF006D2D1C /* 日历底版@2x.png */; };
+		1849293B1D3F12DF006D2D1C /* 显示密码@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849288C1D3F12DF006D2D1C /* 显示密码@2x.png */; };
+		1849293C1D3F12DF006D2D1C /* 显示密码按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849288D1D3F12DF006D2D1C /* 显示密码按下@2x.png */; };
+		1849293D1D3F12DF006D2D1C /* 显示路由器框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849288E1D3F12DF006D2D1C /* 显示路由器框@2x.png */; };
+		1849293E1D3F12DF006D2D1C /* 没有取药@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849288F1D3F12DF006D2D1C /* 没有取药@2x.png */; };
+		1849293F1D3F12DF006D2D1C /* 没有编辑提示小红点@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928901D3F12DF006D2D1C /* 没有编辑提示小红点@2x.png */; };
+		184929401D3F12DF006D2D1C /* 没选中圈@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928911D3F12DF006D2D1C /* 没选中圈@2x.png */; };
+		184929411D3F12DF006D2D1C /* 注册，登陆按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928921D3F12DF006D2D1C /* 注册，登陆按钮@2x.png */; };
+		184929421D3F12DF006D2D1C /* 注册，登陆按钮按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928931D3F12DF006D2D1C /* 注册，登陆按钮按下@2x.png */; };
+		184929431D3F12DF006D2D1C /* 添加ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928941D3F12DF006D2D1C /* 添加ICON@2x.png */; };
+		184929441D3F12DF006D2D1C /* 添加ICON按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928951D3F12DF006D2D1C /* 添加ICON按下@2x.png */; };
+		184929451D3F12DF006D2D1C /* 登陆注册背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928961D3F12DF006D2D1C /* 登陆注册背景@2x.png */; };
+		184929461D3F12DF006D2D1C /* 知道了框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928971D3F12DF006D2D1C /* 知道了框@2x.png */; };
+		184929471D3F12DF006D2D1C /* 知道了框按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928981D3F12DF006D2D1C /* 知道了框按下@2x.png */; };
+		184929481D3F12DF006D2D1C /* 编辑信息头像底框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928991D3F12DF006D2D1C /* 编辑信息头像底框@2x.png */; };
+		184929491D3F12DF006D2D1C /* 背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849289A1D3F12DF006D2D1C /* 背景@2x.png */; };
+		1849294A1D3F12DF006D2D1C /* 药品信息框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849289B1D3F12DF006D2D1C /* 药品信息框@2x.png */; };
+		1849294B1D3F12DF006D2D1C /* 药品图片显示区域@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849289C1D3F12DF006D2D1C /* 药品图片显示区域@2x.png */; };
+		1849294C1D3F12DF006D2D1C /* 药箱ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849289D1D3F12DF006D2D1C /* 药箱ICON@2x.png */; };
+		1849294D1D3F12DF006D2D1C /* 药箱ICON选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849289E1D3F12DF006D2D1C /* 药箱ICON选中@2x.png */; };
+		1849294E1D3F12DF006D2D1C /* 药箱记录ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849289F1D3F12DF006D2D1C /* 药箱记录ICON@2x.png */; };
+		1849294F1D3F12DF006D2D1C /* 药箱记录ICON选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928A01D3F12DF006D2D1C /* 药箱记录ICON选中@2x.png */; };
+		184929501D3F12DF006D2D1C /* 药箱记录标题@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928A11D3F12DF006D2D1C /* 药箱记录标题@2x.png */; };
+		184929511D3F12DF006D2D1C /* 获取验证码按钮常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928A21D3F12DF006D2D1C /* 获取验证码按钮常态@2x.png */; };
+		184929521D3F12DF006D2D1C /* 获取验证码按钮按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928A31D3F12DF006D2D1C /* 获取验证码按钮按下@2x.png */; };
+		184929531D3F12DF006D2D1C /* 蓝底右箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928A41D3F12DF006D2D1C /* 蓝底右箭头@2x.png */; };
+		184929541D3F12DF006D2D1C /* 蓝底右箭头按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928A51D3F12DF006D2D1C /* 蓝底右箭头按下@2x.png */; };
+		184929551D3F12DF006D2D1C /* 角标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928A61D3F12DF006D2D1C /* 角标@2x.png */; };
+		184929561D3F12DF006D2D1C /* 记录切换时间右箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928A71D3F12DF006D2D1C /* 记录切换时间右箭头@2x.png */; };
+		184929571D3F12DF006D2D1C /* 记录切换时间右箭头按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928A81D3F12DF006D2D1C /* 记录切换时间右箭头按下@2x.png */; };
+		184929581D3F12DF006D2D1C /* 记录切换时间左箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928A91D3F12DF006D2D1C /* 记录切换时间左箭头@2x.png */; };
+		184929591D3F12DF006D2D1C /* 记录切换时间左箭头按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928AA1D3F12DF006D2D1C /* 记录切换时间左箭头按下@2x.png */; };
+		1849295A1D3F12DF006D2D1C /* 记录竖分割线@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928AB1D3F12DF006D2D1C /* 记录竖分割线@2x.png */; };
+		1849295B1D3F12DF006D2D1C /* 设置ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928AC1D3F12DF006D2D1C /* 设置ICON@2x.png */; };
+		1849295C1D3F12DF006D2D1C /* 设置ICON按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928AD1D3F12DF006D2D1C /* 设置ICON按下@2x.png */; };
+		1849295D1D3F12DF006D2D1C /* 账号小人@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928AE1D3F12DF006D2D1C /* 账号小人@2x.png */; };
+		1849295E1D3F12DF006D2D1C /* 资料编辑ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928AF1D3F12DF006D2D1C /* 资料编辑ICON@2x.png */; };
+		1849295F1D3F12DF006D2D1C /* 资料编辑ICON选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928B01D3F12DF006D2D1C /* 资料编辑ICON选中@2x.png */; };
+		184929601D3F12DF006D2D1C /* 输入框不可按@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928B11D3F12DF006D2D1C /* 输入框不可按@2x.png */; };
+		184929611D3F12DF006D2D1C /* 输入框常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928B21D3F12DF006D2D1C /* 输入框常态@2x.png */; };
+		184929621D3F12DF006D2D1C /* 输入框选中状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928B31D3F12DF006D2D1C /* 输入框选中状态@2x.png */; };
+		184929631D3F12DF006D2D1C /* 返回ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928B41D3F12DF006D2D1C /* 返回ICON@2x.png */; };
+		184929641D3F12DF006D2D1C /* 返回ICON按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928B51D3F12DF006D2D1C /* 返回ICON按下@2x.png */; };
+		184929651D3F12DF006D2D1C /* 选中圈@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928B61D3F12DF006D2D1C /* 选中圈@2x.png */; };
+		184929661D3F12DF006D2D1C /* 选中蓝底@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928B71D3F12DF006D2D1C /* 选中蓝底@2x.png */; };
+		184929671D3F12DF006D2D1C /* 选择药品箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928B81D3F12DF006D2D1C /* 选择药品箭头@2x.png */; };
+		184929681D3F12DF006D2D1C /* 选择药品箭头右箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928B91D3F12DF006D2D1C /* 选择药品箭头右箭头@2x.png */; };
+		184929691D3F12DF006D2D1C /* 配置WIFI图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928BA1D3F12DF006D2D1C /* 配置WIFI图标@2x.png */; };
+		1849296A1D3F12DF006D2D1C /* 配置小球@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928BB1D3F12DF006D2D1C /* 配置小球@2x.png */; };
+		1849296B1D3F12DF006D2D1C /* 验证码不可按@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928BC1D3F12DF006D2D1C /* 验证码不可按@2x.png */; };
+		1849296C1D3F12DF006D2D1C /* 验证码输入框常态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928BD1D3F12DF006D2D1C /* 验证码输入框常态@2x.png */; };
+		1849296D1D3F12DF006D2D1C /* 验证码输入框选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928BE1D3F12DF006D2D1C /* 验证码输入框选中@2x.png */; };
+		1849296E1D3F12DF006D2D1C /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928C01D3F12DF006D2D1C /* logo@3x.png */; };
+		1849296F1D3F12DF006D2D1C /* 个人信息头像显示区域@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928C11D3F12DF006D2D1C /* 个人信息头像显示区域@3x.png */; };
+		184929701D3F12DF006D2D1C /* 减一个@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928C21D3F12DF006D2D1C /* 减一个@3x.png */; };
+		184929711D3F12DF006D2D1C /* 减一个按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928C31D3F12DF006D2D1C /* 减一个按下@3x.png */; };
+		184929721D3F12DF006D2D1C /* 列表显示头像区域@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928C41D3F12DF006D2D1C /* 列表显示头像区域@3x.png */; };
+		184929731D3F12DF006D2D1C /* 列表栏@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928C51D3F12DF006D2D1C /* 列表栏@3x.png */; };
+		184929741D3F12DF006D2D1C /* 列表框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928C61D3F12DF006D2D1C /* 列表框@3x.png */; };
+		184929751D3F12DF006D2D1C /* 列表横分割线@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928C71D3F12DF006D2D1C /* 列表横分割线@3x.png */; };
+		184929761D3F12DF006D2D1C /* 列表竖分割线@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928C81D3F12DF006D2D1C /* 列表竖分割线@3x.png */; };
+		184929771D3F12DF006D2D1C /* 加一个@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928C91D3F12DF006D2D1C /* 加一个@3x.png */; };
+		184929781D3F12DF006D2D1C /* 加一个按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928CA1D3F12DF006D2D1C /* 加一个按下@3x.png */; };
+		184929791D3F12DF006D2D1C /* 右上角显示头像区域@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928CB1D3F12DF006D2D1C /* 右上角显示头像区域@3x.png */; };
+		1849297A1D3F12DF006D2D1C /* 定时底框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928CC1D3F12DF006D2D1C /* 定时底框@3x.png */; };
+		1849297B1D3F12DF006D2D1C /* 定时提醒ICON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928CD1D3F12DF006D2D1C /* 定时提醒ICON@3x.png */; };
+		1849297C1D3F12DF006D2D1C /* 定时提醒ICON选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928CE1D3F12DF006D2D1C /* 定时提醒ICON选中@3x.png */; };
+		1849297D1D3F12DF006D2D1C /* 定时重复时间框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928CF1D3F12DF006D2D1C /* 定时重复时间框@3x.png */; };
+		1849297E1D3F12DF006D2D1C /* 定时重复没选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928D01D3F12DF006D2D1C /* 定时重复没选中@3x.png */; };
+		1849297F1D3F12DF006D2D1C /* 定时重复选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928D11D3F12DF006D2D1C /* 定时重复选中@3x.png */; };
+		184929801D3F12DF006D2D1C /* 密码显示小球@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928D21D3F12DF006D2D1C /* 密码显示小球@3x.png */; };
+		184929811D3F12DF006D2D1C /* 密码锁@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928D31D3F12DF006D2D1C /* 密码锁@3x.png */; };
+		184929821D3F12DF006D2D1C /* 已连接按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928D41D3F12DF006D2D1C /* 已连接按钮@3x.png */; };
+		184929831D3F12DF006D2D1C /* 已连接按钮按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928D51D3F12DF006D2D1C /* 已连接按钮按下@3x.png */; };
+		184929841D3F12DF006D2D1C /* 延时取药@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928D61D3F12DF006D2D1C /* 延时取药@3x.png */; };
+		184929851D3F12DF006D2D1C /* 当前时间选中圈@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928D71D3F12DF006D2D1C /* 当前时间选中圈@3x.png */; };
+		184929861D3F12DF006D2D1C /* 扫描ICON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928D81D3F12DF006D2D1C /* 扫描ICON@3x.png */; };
+		184929871D3F12DF006D2D1C /* 扫描ICON按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928D91D3F12DF006D2D1C /* 扫描ICON按下@3x.png */; };
+		184929881D3F12DF006D2D1C /* 扫描横条@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928DA1D3F12DF006D2D1C /* 扫描横条@3x.png */; };
+		184929891D3F12DF006D2D1C /* 扫码边框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928DB1D3F12DF006D2D1C /* 扫码边框@3x.png */; };
+		1849298A1D3F12DF006D2D1C /* 按时取药@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928DC1D3F12DF006D2D1C /* 按时取药@3x.png */; };
+		1849298B1D3F12DF006D2D1C /* 日历ICON.@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928DD1D3F12DF006D2D1C /* 日历ICON.@3x.png */; };
+		1849298C1D3F12DF006D2D1C /* 日历ICON选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928DE1D3F12DF006D2D1C /* 日历ICON选中@3x.png */; };
+		1849298D1D3F12DF006D2D1C /* 日历右箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928DF1D3F12DF006D2D1C /* 日历右箭头@3x.png */; };
+		1849298E1D3F12DF006D2D1C /* 日历右箭头按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928E01D3F12DF006D2D1C /* 日历右箭头按下@3x.png */; };
+		1849298F1D3F12DF006D2D1C /* 日历左箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928E11D3F12DF006D2D1C /* 日历左箭头@3x.png */; };
+		184929901D3F12DF006D2D1C /* 日历左箭头按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928E21D3F12DF006D2D1C /* 日历左箭头按下@3x.png */; };
+		184929911D3F12DF006D2D1C /* 日历底版@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928E31D3F12DF006D2D1C /* 日历底版@3x.png */; };
+		184929921D3F12DF006D2D1C /* 显示密码@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928E41D3F12DF006D2D1C /* 显示密码@3x.png */; };
+		184929931D3F12DF006D2D1C /* 显示密码按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928E51D3F12DF006D2D1C /* 显示密码按下@3x.png */; };
+		184929941D3F12DF006D2D1C /* 显示路由器框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928E61D3F12DF006D2D1C /* 显示路由器框@3x.png */; };
+		184929951D3F12DF006D2D1C /* 没有取药@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928E71D3F12DF006D2D1C /* 没有取药@3x.png */; };
+		184929961D3F12DF006D2D1C /* 没有编辑提示小红点@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928E81D3F12DF006D2D1C /* 没有编辑提示小红点@3x.png */; };
+		184929971D3F12DF006D2D1C /* 没选中圈@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928E91D3F12DF006D2D1C /* 没选中圈@3x.png */; };
+		184929981D3F12DF006D2D1C /* 注册，登陆按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928EA1D3F12DF006D2D1C /* 注册，登陆按钮@3x.png */; };
+		184929991D3F12DF006D2D1C /* 注册，登陆按钮按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928EB1D3F12DF006D2D1C /* 注册，登陆按钮按下@3x.png */; };
+		1849299A1D3F12DF006D2D1C /* 添加ICON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928EC1D3F12DF006D2D1C /* 添加ICON@3x.png */; };
+		1849299B1D3F12DF006D2D1C /* 添加ICON按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928ED1D3F12DF006D2D1C /* 添加ICON按下@3x.png */; };
+		1849299C1D3F12DF006D2D1C /* 登陆注册背景@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928EE1D3F12DF006D2D1C /* 登陆注册背景@3x.png */; };
+		1849299D1D3F12DF006D2D1C /* 知道了框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928EF1D3F12DF006D2D1C /* 知道了框@3x.png */; };
+		1849299E1D3F12DF006D2D1C /* 知道了框按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928F01D3F12DF006D2D1C /* 知道了框按下@3x.png */; };
+		1849299F1D3F12DF006D2D1C /* 编辑信息头像底框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928F11D3F12DF006D2D1C /* 编辑信息头像底框@3x.png */; };
+		184929A01D3F12DF006D2D1C /* 背景@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928F21D3F12DF006D2D1C /* 背景@3x.png */; };
+		184929A11D3F12DF006D2D1C /* 药品信息框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928F31D3F12DF006D2D1C /* 药品信息框@3x.png */; };
+		184929A21D3F12DF006D2D1C /* 药品图片显示区域@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928F41D3F12DF006D2D1C /* 药品图片显示区域@3x.png */; };
+		184929A31D3F12DF006D2D1C /* 药箱ICON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928F51D3F12DF006D2D1C /* 药箱ICON@3x.png */; };
+		184929A41D3F12DF006D2D1C /* 药箱ICON选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928F61D3F12DF006D2D1C /* 药箱ICON选中@3x.png */; };
+		184929A51D3F12DF006D2D1C /* 药箱记录ICON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928F71D3F12DF006D2D1C /* 药箱记录ICON@3x.png */; };
+		184929A61D3F12DF006D2D1C /* 药箱记录ICON选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928F81D3F12DF006D2D1C /* 药箱记录ICON选中@3x.png */; };
+		184929A71D3F12DF006D2D1C /* 药箱记录标题@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928F91D3F12DF006D2D1C /* 药箱记录标题@3x.png */; };
+		184929A81D3F12DF006D2D1C /* 获取验证码按钮常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928FA1D3F12DF006D2D1C /* 获取验证码按钮常态@3x.png */; };
+		184929A91D3F12DF006D2D1C /* 获取验证码按钮按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928FB1D3F12DF006D2D1C /* 获取验证码按钮按下@3x.png */; };
+		184929AA1D3F12DF006D2D1C /* 蓝底右箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928FC1D3F12DF006D2D1C /* 蓝底右箭头@3x.png */; };
+		184929AB1D3F12DF006D2D1C /* 蓝底右箭头按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928FD1D3F12DF006D2D1C /* 蓝底右箭头按下@3x.png */; };
+		184929AC1D3F12DF006D2D1C /* 角标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928FE1D3F12DF006D2D1C /* 角标@3x.png */; };
+		184929AD1D3F12DF006D2D1C /* 记录切换时间右箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184928FF1D3F12DF006D2D1C /* 记录切换时间右箭头@3x.png */; };
+		184929AE1D3F12DF006D2D1C /* 记录切换时间右箭头按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929001D3F12DF006D2D1C /* 记录切换时间右箭头按下@3x.png */; };
+		184929AF1D3F12DF006D2D1C /* 记录切换时间左箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929011D3F12DF006D2D1C /* 记录切换时间左箭头@3x.png */; };
+		184929B01D3F12DF006D2D1C /* 记录切换时间左箭头按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929021D3F12DF006D2D1C /* 记录切换时间左箭头按下@3x.png */; };
+		184929B11D3F12DF006D2D1C /* 记录竖分割线@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929031D3F12DF006D2D1C /* 记录竖分割线@3x.png */; };
+		184929B21D3F12DF006D2D1C /* 设置ICON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929041D3F12DF006D2D1C /* 设置ICON@3x.png */; };
+		184929B31D3F12DF006D2D1C /* 设置ICON按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929051D3F12DF006D2D1C /* 设置ICON按下@3x.png */; };
+		184929B41D3F12DF006D2D1C /* 账号小人@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929061D3F12DF006D2D1C /* 账号小人@3x.png */; };
+		184929B51D3F12DF006D2D1C /* 资料编辑ICON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929071D3F12DF006D2D1C /* 资料编辑ICON@3x.png */; };
+		184929B61D3F12DF006D2D1C /* 资料编辑ICON选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929081D3F12DF006D2D1C /* 资料编辑ICON选中@3x.png */; };
+		184929B71D3F12DF006D2D1C /* 输入框不可按@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929091D3F12DF006D2D1C /* 输入框不可按@3x.png */; };
+		184929B81D3F12DF006D2D1C /* 输入框常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849290A1D3F12DF006D2D1C /* 输入框常态@3x.png */; };
+		184929B91D3F12DF006D2D1C /* 输入框选中状态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849290B1D3F12DF006D2D1C /* 输入框选中状态@3x.png */; };
+		184929BA1D3F12DF006D2D1C /* 返回ICON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849290C1D3F12DF006D2D1C /* 返回ICON@3x.png */; };
+		184929BB1D3F12DF006D2D1C /* 返回ICON按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849290D1D3F12DF006D2D1C /* 返回ICON按下@3x.png */; };
+		184929BC1D3F12DF006D2D1C /* 选中圈@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849290E1D3F12DF006D2D1C /* 选中圈@3x.png */; };
+		184929BD1D3F12DF006D2D1C /* 选中蓝底@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1849290F1D3F12DF006D2D1C /* 选中蓝底@3x.png */; };
+		184929BE1D3F12DF006D2D1C /* 选择药品箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929101D3F12DF006D2D1C /* 选择药品箭头@3x.png */; };
+		184929BF1D3F12DF006D2D1C /* 选择药品箭头右箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929111D3F12DF006D2D1C /* 选择药品箭头右箭头@3x.png */; };
+		184929C01D3F12DF006D2D1C /* 配置WIFI图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929121D3F12DF006D2D1C /* 配置WIFI图标@3x.png */; };
+		184929C11D3F12DF006D2D1C /* 配置小球@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929131D3F12DF006D2D1C /* 配置小球@3x.png */; };
+		184929C31D3F12DF006D2D1C /* 验证码输入框常态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929151D3F12DF006D2D1C /* 验证码输入框常态@3x.png */; };
+		184929C41D3F12DF006D2D1C /* 验证码输入框选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184929161D3F12DF006D2D1C /* 验证码输入框选中@3x.png */; };
+		184929C71D3F338E006D2D1C /* LogResForView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184929C61D3F338E006D2D1C /* LogResForView.xib */; };
+		185DACC41D640C7700550063 /* 日历面板@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185DACC31D640C7700550063 /* 日历面板@2x.png */; };
+		185DACC61D64917900550063 /* EditTimeSchemeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185DACC51D64917900550063 /* EditTimeSchemeVC.swift */; };
+		185DACC91D64951200550063 /* SchemeTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185DACC71D64951200550063 /* SchemeTimeTableViewCell.swift */; };
+		185DACCA1D64951200550063 /* SchemeTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185DACC81D64951200550063 /* SchemeTimeTableViewCell.xib */; };
+		18603EA21D65CC84002859A4 /* 显示当前日期@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18603EA11D65CC84002859A4 /* 显示当前日期@2x.png */; };
+		18603EA41D65E8FC002859A4 /* PushSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18603EA31D65E8FC002859A4 /* PushSetViewController.swift */; };
+		18603EA61D65EAF8002859A4 /* ChangePwdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18603EA51D65EAF8002859A4 /* ChangePwdVC.swift */; };
+		18603EA81D669B42002859A4 /* BindPhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18603EA71D669B42002859A4 /* BindPhoneVC.swift */; };
+		186614D71D5F2E46006CF68F /* 相框1.png in Resources */ = {isa = PBXBuildFile; fileRef = 186614D61D5F2E46006CF68F /* 相框1.png */; };
+		186614D91D5F315F006CF68F /* ImageNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186614D81D5F315F006CF68F /* ImageNetworkHelper.swift */; };
+		1866150B1D6168B4006CF68F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866150A1D6168B4006CF68F /* CFNetwork.framework */; };
+		1866150D1D6168BC006CF68F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866150C1D6168BC006CF68F /* CoreGraphics.framework */; };
+		1866150F1D6168CB006CF68F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866150E1D6168CB006CF68F /* MobileCoreServices.framework */; };
+		186615111D6169A8006CF68F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186615101D6169A8006CF68F /* SystemConfiguration.framework */; };
+		1875F5B31D5C289400227030 /* EatDrugRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875F5B21D5C289400227030 /* EatDrugRecordVC.swift */; };
+		1875F5C51D5C2F4900227030 /* DSLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875F5B61D5C2F4900227030 /* DSLCalendarView.m */; };
+		1875F5C61D5C2F4900227030 /* DSLCalendarMonthSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875F5B81D5C2F4900227030 /* DSLCalendarMonthSelectorView.m */; };
+		1875F5C71D5C2F4900227030 /* DSLCalendarMonthSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1875F5B91D5C2F4900227030 /* DSLCalendarMonthSelectorView.xib */; };
+		1875F5C81D5C2F4900227030 /* DSLCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875F5BB1D5C2F4900227030 /* DSLCalendarMonthView.m */; };
+		1875F5C91D5C2F4900227030 /* DSLCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875F5BD1D5C2F4900227030 /* DSLCalendarDayView.m */; };
+		1875F5CA1D5C2F4900227030 /* DSLCalendarRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875F5BF1D5C2F4900227030 /* DSLCalendarRange.m */; };
+		1875F5CB1D5C2F4900227030 /* DSLCalendarDayCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875F5C11D5C2F4900227030 /* DSLCalendarDayCalloutView.m */; };
+		1875F5CC1D5C2F4900227030 /* DSLCalendarDayCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1875F5C21D5C2F4900227030 /* DSLCalendarDayCalloutView.xib */; };
+		1875F5CD1D5C2F4900227030 /* NSDate+DSLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875F5C41D5C2F4900227030 /* NSDate+DSLCalendarView.m */; };
+		1875F5D01D5C2FB200227030 /* 弹框关闭icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1875F5CE1D5C2FB200227030 /* 弹框关闭icon@2x.png */; };
+		1875F5D11D5C2FB200227030 /* 弹框关闭icon按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1875F5CF1D5C2FB200227030 /* 弹框关闭icon按下@2x.png */; };
+		1875F5D51D5C301E00227030 /* DateTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875F5D31D5C301E00227030 /* DateTimeView.m */; };
+		1875F5D61D5C301E00227030 /* DateTimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1875F5D41D5C301E00227030 /* DateTimeView.xib */; };
+		1875F5D91D5C30F300227030 /* MyCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875F5D81D5C30F300227030 /* MyCalendar.m */; };
+		1875F5DC1D5C32C300227030 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875F5DA1D5C32C300227030 /* RecordTableViewCell.swift */; };
+		1875F5DD1D5C32C300227030 /* RecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1875F5DB1D5C32C300227030 /* RecordTableViewCell.xib */; };
+		187BD8971D4B06DC00D28610 /* 删除手机按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8811D4B06DC00D28610 /* 删除手机按钮@2x.png */; };
+		187BD8981D4B06DC00D28610 /* 删除手机按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8821D4B06DC00D28610 /* 删除手机按钮@3x.png */; };
+		187BD8991D4B06DC00D28610 /* 删除手机按钮按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8831D4B06DC00D28610 /* 删除手机按钮按下@2x.png */; };
+		187BD89A1D4B06DC00D28610 /* 删除手机按钮按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8841D4B06DC00D28610 /* 删除手机按钮按下@3x.png */; };
+		187BD89B1D4B06DC00D28610 /* 微信ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8851D4B06DC00D28610 /* 微信ICON@2x.png */; };
+		187BD89C1D4B06DC00D28610 /* 微信ICON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8861D4B06DC00D28610 /* 微信ICON@3x.png */; };
+		187BD89D1D4B06DC00D28610 /* 微信推送背景框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8871D4B06DC00D28610 /* 微信推送背景框@2x.png */; };
+		187BD89E1D4B06DC00D28610 /* 微信推送背景框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8881D4B06DC00D28610 /* 微信推送背景框@3x.png */; };
+		187BD89F1D4B06DC00D28610 /* 提示周期选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8891D4B06DC00D28610 /* 提示周期选中@2x.png */; };
+		187BD8A01D4B06DC00D28610 /* 提示周期选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD88A1D4B06DC00D28610 /* 提示周期选中@3x.png */; };
+		187BD8A11D4B06DC00D28610 /* 提醒周期背框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD88B1D4B06DC00D28610 /* 提醒周期背框@2x.png */; };
+		187BD8A21D4B06DC00D28610 /* 提醒周期背框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD88C1D4B06DC00D28610 /* 提醒周期背框@3x.png */; };
+		187BD8A31D4B06DC00D28610 /* 添加手机按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD88D1D4B06DC00D28610 /* 添加手机按钮@2x.png */; };
+		187BD8A41D4B06DC00D28610 /* 添加手机按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD88E1D4B06DC00D28610 /* 添加手机按钮@3x.png */; };
+		187BD8A51D4B06DC00D28610 /* 添加手机按钮按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD88F1D4B06DC00D28610 /* 添加手机按钮按下@2x.png */; };
+		187BD8A61D4B06DC00D28610 /* 添加手机按钮按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8901D4B06DC00D28610 /* 添加手机按钮按下@3x.png */; };
+		187BD8A71D4B06DC00D28610 /* 短信ICON按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8911D4B06DC00D28610 /* 短信ICON按下@2x.png */; };
+		187BD8A81D4B06DC00D28610 /* 短信ICON按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8921D4B06DC00D28610 /* 短信ICON按下@3x.png */; };
+		187BD8A91D4B06DC00D28610 /* 短信推送分割线@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8931D4B06DC00D28610 /* 短信推送分割线@2x.png */; };
+		187BD8AA1D4B06DC00D28610 /* 短信推送分割线@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8941D4B06DC00D28610 /* 短信推送分割线@3x.png */; };
+		187BD8AB1D4B06DC00D28610 /* 短信推送背景框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8951D4B06DC00D28610 /* 短信推送背景框@2x.png */; };
+		187BD8AC1D4B06DC00D28610 /* 短信推送背景框@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8961D4B06DC00D28610 /* 短信推送背景框@3x.png */; };
+		187BD8AE1D51838400D28610 /* PersonInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BD8AD1D51838400D28610 /* PersonInfoVC.swift */; };
+		187BD8BE1D51C9D600D28610 /* CMDFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BD8B11D51C9D600D28610 /* CMDFactory.m */; };
+		187BD8BF1D51C9D600D28610 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BD8B31D51C9D600D28610 /* AsyncSocket.m */; };
+		187BD8C01D51C9D600D28610 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BD8B51D51C9D600D28610 /* AsyncUdpSocket.m */; };
+		187BD8C11D51C9D600D28610 /* ConfigWifi.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BD8B71D51C9D600D28610 /* ConfigWifi.m */; };
+		187BD8C21D51C9D600D28610 /* ControlTcpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BD8B91D51C9D600D28610 /* ControlTcpSocket.m */; };
+		187BD8C31D51C9D600D28610 /* SmartConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BD8BB1D51C9D600D28610 /* SmartConfig1.m */; };
+		187BD8C41D51C9D600D28610 /* UdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BD8BD1D51C9D600D28610 /* UdpSocket.m */; };
+		187BD8CA1D51CA2C00D28610 /* 扫码款条@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8C61D51CA2C00D28610 /* 扫码款条@2x.png */; };
+		187BD8CB1D51CA2C00D28610 /* 扫码框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8C71D51CA2C00D28610 /* 扫码框@2x.png */; };
+		187BD8CC1D51CA2C00D28610 /* QRScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BD8C81D51CA2C00D28610 /* QRScanView.swift */; };
+		187BD8CD1D51CA2C00D28610 /* QRScan1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187BD8C91D51CA2C00D28610 /* QRScan1.xib */; };
+		187BD8D71D51EBD300D28610 /* libConfiguration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 187BD8D41D51EBD300D28610 /* libConfiguration.a */; };
+		187BD8DE1D55DDA700D28610 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BD8DD1D55DDA700D28610 /* ConfigViewController.m */; };
+		187BD8E11D55DE0900D28610 /* Bolloon.m in Sources */ = {isa = PBXBuildFile; fileRef = 187BD8E01D55DE0900D28610 /* Bolloon.m */; };
+		1880C9291D5C6D9100CFC299 /* 默认头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1880C9251D5C6D9100CFC299 /* 默认头像@2x.png */; };
+		1880C92A1D5C6D9100CFC299 /* 默认头像@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1880C9261D5C6D9100CFC299 /* 默认头像@3x.png */; };
+		1880C92B1D5C6D9100CFC299 /* 右上角默认头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1880C9271D5C6D9100CFC299 /* 右上角默认头像@2x.png */; };
+		1880C92C1D5C6D9100CFC299 /* 右上角默认头像@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1880C9281D5C6D9100CFC299 /* 右上角默认头像@3x.png */; };
+		1880C97F1D5DC62700CFC299 /* 验证码不可按@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1880C97E1D5DC62700CFC299 /* 验证码不可按@3x.png */; };
+		1882CE4D1D5C6BA3004E8B0C /* MyCalendar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1882CE4C1D5C6BA3004E8B0C /* MyCalendar.xib */; };
+		18A0AFAB1D62C3F30012BA45 /* EditMedicineInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0AFAA1D62C3F30012BA45 /* EditMedicineInfoVC.swift */; };
+		18A0AFAD1D62C8790012BA45 /* ScanQRCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0AFAC1D62C8790012BA45 /* ScanQRCodeVC.swift */; };
+		18A66BDB1D45B985006B4C65 /* LogResFPwdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A66BDA1D45B985006B4C65 /* LogResFPwdVC.swift */; };
+		18A66BDF1D45C0F9006B4C65 /* 标题栏阴影@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A66BDE1D45C0F8006B4C65 /* 标题栏阴影@3x.png */; };
+		18A66BE11D45F6F3006B4C65 /* DeviceListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A66BE01D45F6F3006B4C65 /* DeviceListVC.swift */; };
+		18A66BE81D473D76006B4C65 /* BoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A66BE61D473D76006B4C65 /* BoxTableViewCell.swift */; };
+		18A66BE91D473D76006B4C65 /* BoxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A66BE71D473D76006B4C65 /* BoxTableViewCell.xib */; };
+		18A66BEB1D4764D1006B4C65 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A66BEA1D4764D1006B4C65 /* SettingVC.swift */; };
+		18A66BED1D489C65006B4C65 /* MBoxManageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A66BEC1D489C65006B4C65 /* MBoxManageVC.swift */; };
+		18A66BEF1D499992006B4C65 /* MBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A66BEE1D499992006B4C65 /* MBoxTableViewCell.swift */; };
+		18A66BF11D4999C5006B4C65 /* MBoxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A66BF01D4999C5006B4C65 /* MBoxTableViewCell.xib */; };
+		18A66BF31D49F25F006B4C65 /* EDrugManageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A66BF21D49F25F006B4C65 /* EDrugManageVC.swift */; };
+		18A66BF81D49F443006B4C65 /* EatDrugTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A66BF61D49F443006B4C65 /* EatDrugTableViewCell.swift */; };
+		18A66BF91D49F443006B4C65 /* EatDrugTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A66BF71D49F443006B4C65 /* EatDrugTableViewCell.xib */; };
+		18AFD5BA1D61939C00F63503 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFD5AF1D61939C00F63503 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AFD5BB1D61939C00F63503 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFD5B11D61939C00F63503 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AFD5BC1D61939C00F63503 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFD5B31D61939C00F63503 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AFD5BD1D61939C00F63503 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFD5B51D61939C00F63503 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AFD5BE1D61939C00F63503 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFD5B71D61939C00F63503 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AFD5BF1D61939C00F63503 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFD5B91D61939C00F63503 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AFD5C21D61A1FF00F63503 /* WIFI配置@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AFD5C01D61A1FF00F63503 /* WIFI配置@3x.png */; };
+		18AFD5C31D61A1FF00F63503 /* WIFI配置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AFD5C11D61A1FF00F63503 /* WIFI配置@2x.png */; };
+		18B0A2FE1D77D512008165D7 /* EDDateSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0A2FC1D77D512008165D7 /* EDDateSetView.swift */; };
+		18B0A2FF1D77D512008165D7 /* EDDateSetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B0A2FD1D77D512008165D7 /* EDDateSetView.xib */; };
+		18B0A3001D79712B008165D7 /* error_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B0A3021D79712B008165D7 /* error_list.plist */; };
+		18FA72871D732DDD00616EA3 /* ImageSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA72851D732DDD00616EA3 /* ImageSelectView.swift */; };
+		18FA72881D732DDD00616EA3 /* ImageSelect_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA72861D732DDD00616EA3 /* ImageSelect_Delegate.swift */; };
+		18FA728D1D732E3000616EA3 /* KICropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA728A1D732E3000616EA3 /* KICropImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18FA728E1D732E3000616EA3 /* UIImage+KIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA728C1D732E3000616EA3 /* UIImage+KIAdditions.m */; };
+		18FA72911D73CCA200616EA3 /* SetUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA72901D73CCA200616EA3 /* SetUserInfoViewController.m */; };
+		CFF664996897F1109B98E2EC /* Pods_MedicineBoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABF3D445D4BA4F50F7B2C00 /* Pods_MedicineBoxTests.framework */; };
+		DB1816511EC8A840003827CF /* DeviceInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1816501EC8A840003827CF /* DeviceInfoVC.swift */; };
+		DB2CE51D1EC94B4A003BCB7D /* ？@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2CE5151EC94B4A003BCB7D /* ？@2x.png */; };
+		DB2CE51E1EC94B4A003BCB7D /* ？@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2CE5161EC94B4A003BCB7D /* ？@3x.png */; };
+		DB2CE51F1EC94B4A003BCB7D /* 删除按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2CE5171EC94B4A003BCB7D /* 删除按钮@2x.png */; };
+		DB2CE5201EC94B4A003BCB7D /* 删除按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2CE5181EC94B4A003BCB7D /* 删除按钮@3x.png */; };
+		DB2CE5211EC94B4A003BCB7D /* 删除按钮按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2CE5191EC94B4A003BCB7D /* 删除按钮按下@2x.png */; };
+		DB2CE5221EC94B4A003BCB7D /* 删除按钮按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2CE51A1EC94B4A003BCB7D /* 删除按钮按下@3x.png */; };
+		DB2CE5231EC94B4A003BCB7D /* 设备信息icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2CE51B1EC94B4A003BCB7D /* 设备信息icon@2x.png */; };
+		DB2CE5241EC94B4A003BCB7D /* 设备信息icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2CE51C1EC94B4A003BCB7D /* 设备信息icon@3x.png */; };
+		DB6695281EF777F300CB12CB /* hotelcity.json in Resources */ = {isa = PBXBuildFile; fileRef = DB6695261EF777F300CB12CB /* hotelcity.json */; };
+		DB6695291EF777F300CB12CB /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = DB6695271EF777F300CB12CB /* address.json */; };
+		DBE3697B1F03AFF4008D3323 /* CityChooseViewCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE3697A1F03AFF4008D3323 /* CityChooseViewCreater.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1849284A1D3F115D006D2D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1849282D1D3F115D006D2D1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184928341D3F115D006D2D1C;
+			remoteInfo = MedicineBox;
+		};
+		184928551D3F115D006D2D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1849282D1D3F115D006D2D1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184928341D3F115D006D2D1C;
+			remoteInfo = MedicineBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B1796301F0C99B300FD90DE /* MedicineBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MedicineBox.entitlements; sourceTree = "<group>"; };
+		0B4E8CAF2063C558000B1C5C /* UIViewController+BarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarButton.m"; sourceTree = "<group>"; };
+		0B4E8CB02063C558000B1C5C /* UIViewController+BarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarButton.h"; sourceTree = "<group>"; };
+		0B77C1451F1855F7007D1495 /* TokenSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenSocket.swift; sourceTree = "<group>"; };
+		0B829F1B1F0CE65300F46D8F /* PushCMDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushCMDHelper.h; sourceTree = "<group>"; };
+		0B829F1C1F0CE65300F46D8F /* PushCMDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushCMDHelper.m; sourceTree = "<group>"; };
+		0B983B142091BEE400DC49AA /* 日历选中按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历选中按钮@2x.png"; sourceTree = "<group>"; };
+		0BAE48041F6BCFD400A3692C /* InputDrugInHandVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputDrugInHandVC.swift; sourceTree = "<group>"; };
+		0BC045B11FF22B7B00597223 /* MyAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertView.swift; sourceTree = "<group>"; };
+		0F6A2820087F50483B994620 /* Pods_MedicineBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicineBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1824E3B21D815F880050F0CE /* DrugInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugInfoVC.swift; sourceTree = "<group>"; };
+		1826A02A1D41BA8000D483DB /* LoginVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginVIew.swift; path = MyView/LoginVIew.swift; sourceTree = "<group>"; };
+		1826A02C1D41BAA700D483DB /* ResFindVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResFindVIew.swift; path = MyView/ResFindVIew.swift; sourceTree = "<group>"; };
+		1826A02E1D41D61600D483DB /* MedicineBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedicineBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		1826A0331D41D70D00D483DB /* ASIHTTPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPHelper.h; sourceTree = "<group>"; };
+		1826A0341D41D70D00D483DB /* ASIHTTPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPHelper.m; sourceTree = "<group>"; };
+		1826A0371D41D70D00D483DB /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		1826A0381D41D70D00D483DB /* ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtils.m; sourceTree = "<group>"; };
+		1826A0391D41D70D00D483DB /* ThreeDES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDES.h; sourceTree = "<group>"; };
+		1826A03A1D41D70D00D483DB /* ThreeDES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDES.m; sourceTree = "<group>"; };
+		1826A03B1D41D70D00D483DB /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		1826A03C1D41D70D00D483DB /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		1826A0421D41D76000D483DB /* GlobalMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalMethod.h; sourceTree = "<group>"; };
+		1826A0431D41D76000D483DB /* GlobalMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalMethod.m; sourceTree = "<group>"; };
+		1826A0441D41D76000D483DB /* MyGlobalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGlobalData.h; sourceTree = "<group>"; };
+		1826A0451D41D76000D483DB /* MyGlobalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGlobalData.m; sourceTree = "<group>"; };
+		1826A0491D41D79200D483DB /* PublicCmdHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicCmdHelper.h; sourceTree = "<group>"; };
+		1826A04A1D41D79200D483DB /* PublicCmdHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicCmdHelper.m; sourceTree = "<group>"; };
+		1826A04B1D41D79200D483DB /* SessionManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManger.h; sourceTree = "<group>"; };
+		1826A04C1D41D79200D483DB /* SessionManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManger.m; sourceTree = "<group>"; };
+		1826A0501D41D7A700D483DB /* AppUpdateByAppStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUpdateByAppStore.h; sourceTree = "<group>"; };
+		1826A0511D41D7A700D483DB /* AppUpdateByAppStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUpdateByAppStore.m; sourceTree = "<group>"; };
+		1826A0561D41D7E300D483DB /* Protocol.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Protocol.framework; path = Framework/Protocol.framework; sourceTree = "<group>"; };
+		1826A0591D41FA5D00D483DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1826A05B1D41FA6600D483DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1826A05D1D41FAD000D483DB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1826A05F1D420C1B00D483DB /* LogResForViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogResForViews.xib; sourceTree = "<group>"; };
+		183410971D64A1E8009A10A4 /* CycleSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CycleSetView.swift; path = MyView/CycleSetView.swift; sourceTree = "<group>"; };
+		1834109B1D64A79F009A10A4 /* BirthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthView.h; sourceTree = "<group>"; };
+		1834109C1D64A79F009A10A4 /* BirthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthView.m; sourceTree = "<group>"; };
+		1834109D1D64A79F009A10A4 /* BirthView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BirthView.xib; sourceTree = "<group>"; };
+		1836B4BE1D421BD7002CF493 /* UtilSw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilSw.swift; sourceTree = "<group>"; };
+		184928351D3F115D006D2D1C /* MedicineBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicineBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184928381D3F115D006D2D1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1849283A1D3F115D006D2D1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1849283D1D3F115D006D2D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1849283F1D3F115D006D2D1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184928421D3F115D006D2D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184928441D3F115D006D2D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184928491D3F115D006D2D1C /* MedicineBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicineBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1849284D1D3F115D006D2D1C /* MedicineBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineBoxTests.swift; sourceTree = "<group>"; };
+		1849284F1D3F115D006D2D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184928541D3F115D006D2D1C /* MedicineBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicineBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184928581D3F115D006D2D1C /* MedicineBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineBoxUITests.swift; sourceTree = "<group>"; };
+		1849285A1D3F115D006D2D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184928681D3F12DF006D2D1C /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		184928691D3F12DF006D2D1C /* 个人信息头像显示区域@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人信息头像显示区域@2x.png"; sourceTree = "<group>"; };
+		1849286A1D3F12DF006D2D1C /* 减一个@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "减一个@2x.png"; sourceTree = "<group>"; };
+		1849286B1D3F12DF006D2D1C /* 减一个按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "减一个按下@2x.png"; sourceTree = "<group>"; };
+		1849286C1D3F12DF006D2D1C /* 列表显示头像区域@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表显示头像区域@2x.png"; sourceTree = "<group>"; };
+		1849286D1D3F12DF006D2D1C /* 列表栏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表栏@2x.png"; sourceTree = "<group>"; };
+		1849286E1D3F12DF006D2D1C /* 列表框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表框@2x.png"; sourceTree = "<group>"; };
+		1849286F1D3F12DF006D2D1C /* 列表横分割线@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表横分割线@2x.png"; sourceTree = "<group>"; };
+		184928701D3F12DF006D2D1C /* 列表竖分割线@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表竖分割线@2x.png"; sourceTree = "<group>"; };
+		184928711D3F12DF006D2D1C /* 加一个@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加一个@2x.png"; sourceTree = "<group>"; };
+		184928721D3F12DF006D2D1C /* 加一个按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加一个按下@2x.png"; sourceTree = "<group>"; };
+		184928731D3F12DF006D2D1C /* 右上角显示头像区域@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右上角显示头像区域@2x.png"; sourceTree = "<group>"; };
+		184928741D3F12DF006D2D1C /* 定时底框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时底框@2x.png"; sourceTree = "<group>"; };
+		184928751D3F12DF006D2D1C /* 定时提醒ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时提醒ICON@2x.png"; sourceTree = "<group>"; };
+		184928761D3F12DF006D2D1C /* 定时提醒ICON选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时提醒ICON选中@2x.png"; sourceTree = "<group>"; };
+		184928771D3F12DF006D2D1C /* 定时重复时间框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时重复时间框@2x.png"; sourceTree = "<group>"; };
+		184928781D3F12DF006D2D1C /* 定时重复没选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时重复没选中@2x.png"; sourceTree = "<group>"; };
+		184928791D3F12DF006D2D1C /* 定时重复选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时重复选中@2x.png"; sourceTree = "<group>"; };
+		1849287A1D3F12DF006D2D1C /* 密码显示小球@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码显示小球@2x.png"; sourceTree = "<group>"; };
+		1849287B1D3F12DF006D2D1C /* 密码锁@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码锁@2x.png"; sourceTree = "<group>"; };
+		1849287C1D3F12DF006D2D1C /* 已连接按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已连接按钮@2x.png"; sourceTree = "<group>"; };
+		1849287D1D3F12DF006D2D1C /* 已连接按钮按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已连接按钮按下@2x.png"; sourceTree = "<group>"; };
+		1849287E1D3F12DF006D2D1C /* 延时取药@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "延时取药@2x.png"; sourceTree = "<group>"; };
+		1849287F1D3F12DF006D2D1C /* 当前时间选中圈@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "当前时间选中圈@2x.png"; sourceTree = "<group>"; };
+		184928801D3F12DF006D2D1C /* 扫描ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描ICON@2x.png"; sourceTree = "<group>"; };
+		184928811D3F12DF006D2D1C /* 扫描ICON按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描ICON按下@2x.png"; sourceTree = "<group>"; };
+		184928821D3F12DF006D2D1C /* 扫描横条@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描横条@2x.png"; sourceTree = "<group>"; };
+		184928831D3F12DF006D2D1C /* 扫码边框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫码边框@2x.png"; sourceTree = "<group>"; };
+		184928841D3F12DF006D2D1C /* 按时取药@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按时取药@2x.png"; sourceTree = "<group>"; };
+		184928851D3F12DF006D2D1C /* 日历ICON.@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历ICON.@2x.png"; sourceTree = "<group>"; };
+		184928861D3F12DF006D2D1C /* 日历ICON选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历ICON选中@2x.png"; sourceTree = "<group>"; };
+		184928871D3F12DF006D2D1C /* 日历右箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历右箭头@2x.png"; sourceTree = "<group>"; };
+		184928881D3F12DF006D2D1C /* 日历右箭头按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历右箭头按下@2x.png"; sourceTree = "<group>"; };
+		184928891D3F12DF006D2D1C /* 日历左箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历左箭头@2x.png"; sourceTree = "<group>"; };
+		1849288A1D3F12DF006D2D1C /* 日历左箭头按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历左箭头按下@2x.png"; sourceTree = "<group>"; };
+		1849288B1D3F12DF006D2D1C /* 日历底版@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历底版@2x.png"; sourceTree = "<group>"; };
+		1849288C1D3F12DF006D2D1C /* 显示密码@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "显示密码@2x.png"; sourceTree = "<group>"; };
+		1849288D1D3F12DF006D2D1C /* 显示密码按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "显示密码按下@2x.png"; sourceTree = "<group>"; };
+		1849288E1D3F12DF006D2D1C /* 显示路由器框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "显示路由器框@2x.png"; sourceTree = "<group>"; };
+		1849288F1D3F12DF006D2D1C /* 没有取药@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "没有取药@2x.png"; sourceTree = "<group>"; };
+		184928901D3F12DF006D2D1C /* 没有编辑提示小红点@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "没有编辑提示小红点@2x.png"; sourceTree = "<group>"; };
+		184928911D3F12DF006D2D1C /* 没选中圈@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "没选中圈@2x.png"; sourceTree = "<group>"; };
+		184928921D3F12DF006D2D1C /* 注册，登陆按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册，登陆按钮@2x.png"; sourceTree = "<group>"; };
+		184928931D3F12DF006D2D1C /* 注册，登陆按钮按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册，登陆按钮按下@2x.png"; sourceTree = "<group>"; };
+		184928941D3F12DF006D2D1C /* 添加ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加ICON@2x.png"; sourceTree = "<group>"; };
+		184928951D3F12DF006D2D1C /* 添加ICON按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加ICON按下@2x.png"; sourceTree = "<group>"; };
+		184928961D3F12DF006D2D1C /* 登陆注册背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆注册背景@2x.png"; sourceTree = "<group>"; };
+		184928971D3F12DF006D2D1C /* 知道了框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "知道了框@2x.png"; sourceTree = "<group>"; };
+		184928981D3F12DF006D2D1C /* 知道了框按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "知道了框按下@2x.png"; sourceTree = "<group>"; };
+		184928991D3F12DF006D2D1C /* 编辑信息头像底框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑信息头像底框@2x.png"; sourceTree = "<group>"; };
+		1849289A1D3F12DF006D2D1C /* 背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景@2x.png"; sourceTree = "<group>"; };
+		1849289B1D3F12DF006D2D1C /* 药品信息框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药品信息框@2x.png"; sourceTree = "<group>"; };
+		1849289C1D3F12DF006D2D1C /* 药品图片显示区域@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药品图片显示区域@2x.png"; sourceTree = "<group>"; };
+		1849289D1D3F12DF006D2D1C /* 药箱ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药箱ICON@2x.png"; sourceTree = "<group>"; };
+		1849289E1D3F12DF006D2D1C /* 药箱ICON选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药箱ICON选中@2x.png"; sourceTree = "<group>"; };
+		1849289F1D3F12DF006D2D1C /* 药箱记录ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药箱记录ICON@2x.png"; sourceTree = "<group>"; };
+		184928A01D3F12DF006D2D1C /* 药箱记录ICON选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药箱记录ICON选中@2x.png"; sourceTree = "<group>"; };
+		184928A11D3F12DF006D2D1C /* 药箱记录标题@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药箱记录标题@2x.png"; sourceTree = "<group>"; };
+		184928A21D3F12DF006D2D1C /* 获取验证码按钮常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "获取验证码按钮常态@2x.png"; sourceTree = "<group>"; };
+		184928A31D3F12DF006D2D1C /* 获取验证码按钮按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "获取验证码按钮按下@2x.png"; sourceTree = "<group>"; };
+		184928A41D3F12DF006D2D1C /* 蓝底右箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝底右箭头@2x.png"; sourceTree = "<group>"; };
+		184928A51D3F12DF006D2D1C /* 蓝底右箭头按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝底右箭头按下@2x.png"; sourceTree = "<group>"; };
+		184928A61D3F12DF006D2D1C /* 角标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角标@2x.png"; sourceTree = "<group>"; };
+		184928A71D3F12DF006D2D1C /* 记录切换时间右箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记录切换时间右箭头@2x.png"; sourceTree = "<group>"; };
+		184928A81D3F12DF006D2D1C /* 记录切换时间右箭头按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记录切换时间右箭头按下@2x.png"; sourceTree = "<group>"; };
+		184928A91D3F12DF006D2D1C /* 记录切换时间左箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记录切换时间左箭头@2x.png"; sourceTree = "<group>"; };
+		184928AA1D3F12DF006D2D1C /* 记录切换时间左箭头按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记录切换时间左箭头按下@2x.png"; sourceTree = "<group>"; };
+		184928AB1D3F12DF006D2D1C /* 记录竖分割线@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记录竖分割线@2x.png"; sourceTree = "<group>"; };
+		184928AC1D3F12DF006D2D1C /* 设置ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置ICON@2x.png"; sourceTree = "<group>"; };
+		184928AD1D3F12DF006D2D1C /* 设置ICON按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置ICON按下@2x.png"; sourceTree = "<group>"; };
+		184928AE1D3F12DF006D2D1C /* 账号小人@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "账号小人@2x.png"; sourceTree = "<group>"; };
+		184928AF1D3F12DF006D2D1C /* 资料编辑ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资料编辑ICON@2x.png"; sourceTree = "<group>"; };
+		184928B01D3F12DF006D2D1C /* 资料编辑ICON选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资料编辑ICON选中@2x.png"; sourceTree = "<group>"; };
+		184928B11D3F12DF006D2D1C /* 输入框不可按@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框不可按@2x.png"; sourceTree = "<group>"; };
+		184928B21D3F12DF006D2D1C /* 输入框常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框常态@2x.png"; sourceTree = "<group>"; };
+		184928B31D3F12DF006D2D1C /* 输入框选中状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框选中状态@2x.png"; sourceTree = "<group>"; };
+		184928B41D3F12DF006D2D1C /* 返回ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回ICON@2x.png"; sourceTree = "<group>"; };
+		184928B51D3F12DF006D2D1C /* 返回ICON按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回ICON按下@2x.png"; sourceTree = "<group>"; };
+		184928B61D3F12DF006D2D1C /* 选中圈@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中圈@2x.png"; sourceTree = "<group>"; };
+		184928B71D3F12DF006D2D1C /* 选中蓝底@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中蓝底@2x.png"; sourceTree = "<group>"; };
+		184928B81D3F12DF006D2D1C /* 选择药品箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择药品箭头@2x.png"; sourceTree = "<group>"; };
+		184928B91D3F12DF006D2D1C /* 选择药品箭头右箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择药品箭头右箭头@2x.png"; sourceTree = "<group>"; };
+		184928BA1D3F12DF006D2D1C /* 配置WIFI图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "配置WIFI图标@2x.png"; sourceTree = "<group>"; };
+		184928BB1D3F12DF006D2D1C /* 配置小球@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "配置小球@2x.png"; sourceTree = "<group>"; };
+		184928BC1D3F12DF006D2D1C /* 验证码不可按@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证码不可按@2x.png"; sourceTree = "<group>"; };
+		184928BD1D3F12DF006D2D1C /* 验证码输入框常态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证码输入框常态@2x.png"; sourceTree = "<group>"; };
+		184928BE1D3F12DF006D2D1C /* 验证码输入框选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证码输入框选中@2x.png"; sourceTree = "<group>"; };
+		184928C01D3F12DF006D2D1C /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@3x.png"; sourceTree = "<group>"; };
+		184928C11D3F12DF006D2D1C /* 个人信息头像显示区域@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人信息头像显示区域@3x.png"; sourceTree = "<group>"; };
+		184928C21D3F12DF006D2D1C /* 减一个@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "减一个@3x.png"; sourceTree = "<group>"; };
+		184928C31D3F12DF006D2D1C /* 减一个按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "减一个按下@3x.png"; sourceTree = "<group>"; };
+		184928C41D3F12DF006D2D1C /* 列表显示头像区域@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表显示头像区域@3x.png"; sourceTree = "<group>"; };
+		184928C51D3F12DF006D2D1C /* 列表栏@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表栏@3x.png"; sourceTree = "<group>"; };
+		184928C61D3F12DF006D2D1C /* 列表框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表框@3x.png"; sourceTree = "<group>"; };
+		184928C71D3F12DF006D2D1C /* 列表横分割线@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表横分割线@3x.png"; sourceTree = "<group>"; };
+		184928C81D3F12DF006D2D1C /* 列表竖分割线@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表竖分割线@3x.png"; sourceTree = "<group>"; };
+		184928C91D3F12DF006D2D1C /* 加一个@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加一个@3x.png"; sourceTree = "<group>"; };
+		184928CA1D3F12DF006D2D1C /* 加一个按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加一个按下@3x.png"; sourceTree = "<group>"; };
+		184928CB1D3F12DF006D2D1C /* 右上角显示头像区域@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右上角显示头像区域@3x.png"; sourceTree = "<group>"; };
+		184928CC1D3F12DF006D2D1C /* 定时底框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时底框@3x.png"; sourceTree = "<group>"; };
+		184928CD1D3F12DF006D2D1C /* 定时提醒ICON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时提醒ICON@3x.png"; sourceTree = "<group>"; };
+		184928CE1D3F12DF006D2D1C /* 定时提醒ICON选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时提醒ICON选中@3x.png"; sourceTree = "<group>"; };
+		184928CF1D3F12DF006D2D1C /* 定时重复时间框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时重复时间框@3x.png"; sourceTree = "<group>"; };
+		184928D01D3F12DF006D2D1C /* 定时重复没选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时重复没选中@3x.png"; sourceTree = "<group>"; };
+		184928D11D3F12DF006D2D1C /* 定时重复选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定时重复选中@3x.png"; sourceTree = "<group>"; };
+		184928D21D3F12DF006D2D1C /* 密码显示小球@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码显示小球@3x.png"; sourceTree = "<group>"; };
+		184928D31D3F12DF006D2D1C /* 密码锁@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码锁@3x.png"; sourceTree = "<group>"; };
+		184928D41D3F12DF006D2D1C /* 已连接按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已连接按钮@3x.png"; sourceTree = "<group>"; };
+		184928D51D3F12DF006D2D1C /* 已连接按钮按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已连接按钮按下@3x.png"; sourceTree = "<group>"; };
+		184928D61D3F12DF006D2D1C /* 延时取药@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "延时取药@3x.png"; sourceTree = "<group>"; };
+		184928D71D3F12DF006D2D1C /* 当前时间选中圈@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "当前时间选中圈@3x.png"; sourceTree = "<group>"; };
+		184928D81D3F12DF006D2D1C /* 扫描ICON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描ICON@3x.png"; sourceTree = "<group>"; };
+		184928D91D3F12DF006D2D1C /* 扫描ICON按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描ICON按下@3x.png"; sourceTree = "<group>"; };
+		184928DA1D3F12DF006D2D1C /* 扫描横条@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描横条@3x.png"; sourceTree = "<group>"; };
+		184928DB1D3F12DF006D2D1C /* 扫码边框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫码边框@3x.png"; sourceTree = "<group>"; };
+		184928DC1D3F12DF006D2D1C /* 按时取药@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按时取药@3x.png"; sourceTree = "<group>"; };
+		184928DD1D3F12DF006D2D1C /* 日历ICON.@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历ICON.@3x.png"; sourceTree = "<group>"; };
+		184928DE1D3F12DF006D2D1C /* 日历ICON选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历ICON选中@3x.png"; sourceTree = "<group>"; };
+		184928DF1D3F12DF006D2D1C /* 日历右箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历右箭头@3x.png"; sourceTree = "<group>"; };
+		184928E01D3F12DF006D2D1C /* 日历右箭头按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历右箭头按下@3x.png"; sourceTree = "<group>"; };
+		184928E11D3F12DF006D2D1C /* 日历左箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历左箭头@3x.png"; sourceTree = "<group>"; };
+		184928E21D3F12DF006D2D1C /* 日历左箭头按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历左箭头按下@3x.png"; sourceTree = "<group>"; };
+		184928E31D3F12DF006D2D1C /* 日历底版@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历底版@3x.png"; sourceTree = "<group>"; };
+		184928E41D3F12DF006D2D1C /* 显示密码@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "显示密码@3x.png"; sourceTree = "<group>"; };
+		184928E51D3F12DF006D2D1C /* 显示密码按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "显示密码按下@3x.png"; sourceTree = "<group>"; };
+		184928E61D3F12DF006D2D1C /* 显示路由器框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "显示路由器框@3x.png"; sourceTree = "<group>"; };
+		184928E71D3F12DF006D2D1C /* 没有取药@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "没有取药@3x.png"; sourceTree = "<group>"; };
+		184928E81D3F12DF006D2D1C /* 没有编辑提示小红点@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "没有编辑提示小红点@3x.png"; sourceTree = "<group>"; };
+		184928E91D3F12DF006D2D1C /* 没选中圈@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "没选中圈@3x.png"; sourceTree = "<group>"; };
+		184928EA1D3F12DF006D2D1C /* 注册，登陆按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册，登陆按钮@3x.png"; sourceTree = "<group>"; };
+		184928EB1D3F12DF006D2D1C /* 注册，登陆按钮按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册，登陆按钮按下@3x.png"; sourceTree = "<group>"; };
+		184928EC1D3F12DF006D2D1C /* 添加ICON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加ICON@3x.png"; sourceTree = "<group>"; };
+		184928ED1D3F12DF006D2D1C /* 添加ICON按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加ICON按下@3x.png"; sourceTree = "<group>"; };
+		184928EE1D3F12DF006D2D1C /* 登陆注册背景@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆注册背景@3x.png"; sourceTree = "<group>"; };
+		184928EF1D3F12DF006D2D1C /* 知道了框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "知道了框@3x.png"; sourceTree = "<group>"; };
+		184928F01D3F12DF006D2D1C /* 知道了框按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "知道了框按下@3x.png"; sourceTree = "<group>"; };
+		184928F11D3F12DF006D2D1C /* 编辑信息头像底框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑信息头像底框@3x.png"; sourceTree = "<group>"; };
+		184928F21D3F12DF006D2D1C /* 背景@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景@3x.png"; sourceTree = "<group>"; };
+		184928F31D3F12DF006D2D1C /* 药品信息框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药品信息框@3x.png"; sourceTree = "<group>"; };
+		184928F41D3F12DF006D2D1C /* 药品图片显示区域@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药品图片显示区域@3x.png"; sourceTree = "<group>"; };
+		184928F51D3F12DF006D2D1C /* 药箱ICON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药箱ICON@3x.png"; sourceTree = "<group>"; };
+		184928F61D3F12DF006D2D1C /* 药箱ICON选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药箱ICON选中@3x.png"; sourceTree = "<group>"; };
+		184928F71D3F12DF006D2D1C /* 药箱记录ICON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药箱记录ICON@3x.png"; sourceTree = "<group>"; };
+		184928F81D3F12DF006D2D1C /* 药箱记录ICON选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药箱记录ICON选中@3x.png"; sourceTree = "<group>"; };
+		184928F91D3F12DF006D2D1C /* 药箱记录标题@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "药箱记录标题@3x.png"; sourceTree = "<group>"; };
+		184928FA1D3F12DF006D2D1C /* 获取验证码按钮常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "获取验证码按钮常态@3x.png"; sourceTree = "<group>"; };
+		184928FB1D3F12DF006D2D1C /* 获取验证码按钮按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "获取验证码按钮按下@3x.png"; sourceTree = "<group>"; };
+		184928FC1D3F12DF006D2D1C /* 蓝底右箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝底右箭头@3x.png"; sourceTree = "<group>"; };
+		184928FD1D3F12DF006D2D1C /* 蓝底右箭头按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝底右箭头按下@3x.png"; sourceTree = "<group>"; };
+		184928FE1D3F12DF006D2D1C /* 角标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角标@3x.png"; sourceTree = "<group>"; };
+		184928FF1D3F12DF006D2D1C /* 记录切换时间右箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记录切换时间右箭头@3x.png"; sourceTree = "<group>"; };
+		184929001D3F12DF006D2D1C /* 记录切换时间右箭头按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记录切换时间右箭头按下@3x.png"; sourceTree = "<group>"; };
+		184929011D3F12DF006D2D1C /* 记录切换时间左箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记录切换时间左箭头@3x.png"; sourceTree = "<group>"; };
+		184929021D3F12DF006D2D1C /* 记录切换时间左箭头按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记录切换时间左箭头按下@3x.png"; sourceTree = "<group>"; };
+		184929031D3F12DF006D2D1C /* 记录竖分割线@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记录竖分割线@3x.png"; sourceTree = "<group>"; };
+		184929041D3F12DF006D2D1C /* 设置ICON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置ICON@3x.png"; sourceTree = "<group>"; };
+		184929051D3F12DF006D2D1C /* 设置ICON按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置ICON按下@3x.png"; sourceTree = "<group>"; };
+		184929061D3F12DF006D2D1C /* 账号小人@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "账号小人@3x.png"; sourceTree = "<group>"; };
+		184929071D3F12DF006D2D1C /* 资料编辑ICON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资料编辑ICON@3x.png"; sourceTree = "<group>"; };
+		184929081D3F12DF006D2D1C /* 资料编辑ICON选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资料编辑ICON选中@3x.png"; sourceTree = "<group>"; };
+		184929091D3F12DF006D2D1C /* 输入框不可按@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框不可按@3x.png"; sourceTree = "<group>"; };
+		1849290A1D3F12DF006D2D1C /* 输入框常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框常态@3x.png"; sourceTree = "<group>"; };
+		1849290B1D3F12DF006D2D1C /* 输入框选中状态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框选中状态@3x.png"; sourceTree = "<group>"; };
+		1849290C1D3F12DF006D2D1C /* 返回ICON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回ICON@3x.png"; sourceTree = "<group>"; };
+		1849290D1D3F12DF006D2D1C /* 返回ICON按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回ICON按下@3x.png"; sourceTree = "<group>"; };
+		1849290E1D3F12DF006D2D1C /* 选中圈@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中圈@3x.png"; sourceTree = "<group>"; };
+		1849290F1D3F12DF006D2D1C /* 选中蓝底@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中蓝底@3x.png"; sourceTree = "<group>"; };
+		184929101D3F12DF006D2D1C /* 选择药品箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择药品箭头@3x.png"; sourceTree = "<group>"; };
+		184929111D3F12DF006D2D1C /* 选择药品箭头右箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择药品箭头右箭头@3x.png"; sourceTree = "<group>"; };
+		184929121D3F12DF006D2D1C /* 配置WIFI图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "配置WIFI图标@3x.png"; sourceTree = "<group>"; };
+		184929131D3F12DF006D2D1C /* 配置小球@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "配置小球@3x.png"; sourceTree = "<group>"; };
+		184929151D3F12DF006D2D1C /* 验证码输入框常态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证码输入框常态@3x.png"; sourceTree = "<group>"; };
+		184929161D3F12DF006D2D1C /* 验证码输入框选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证码输入框选中@3x.png"; sourceTree = "<group>"; };
+		184929C61D3F338E006D2D1C /* LogResForView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogResForView.xib; sourceTree = "<group>"; };
+		185DACC31D640C7700550063 /* 日历面板@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历面板@2x.png"; sourceTree = "<group>"; };
+		185DACC51D64917900550063 /* EditTimeSchemeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditTimeSchemeVC.swift; path = VCS/EditTimeSchemeVC.swift; sourceTree = "<group>"; };
+		185DACC71D64951200550063 /* SchemeTimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchemeTimeTableViewCell.swift; path = MyView/SchemeTimeTableViewCell.swift; sourceTree = "<group>"; };
+		185DACC81D64951200550063 /* SchemeTimeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SchemeTimeTableViewCell.xib; path = MyView/SchemeTimeTableViewCell.xib; sourceTree = "<group>"; };
+		18603EA11D65CC84002859A4 /* 显示当前日期@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "显示当前日期@2x.png"; sourceTree = "<group>"; };
+		18603EA31D65E8FC002859A4 /* PushSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushSetViewController.swift; path = VCS/PushSetViewController.swift; sourceTree = "<group>"; };
+		18603EA51D65EAF8002859A4 /* ChangePwdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangePwdVC.swift; path = VCS/ChangePwdVC.swift; sourceTree = "<group>"; };
+		18603EA71D669B42002859A4 /* BindPhoneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BindPhoneVC.swift; path = VCS/BindPhoneVC.swift; sourceTree = "<group>"; };
+		186614D61D5F2E46006CF68F /* 相框1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相框1.png"; sourceTree = "<group>"; };
+		186614D81D5F315F006CF68F /* ImageNetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageNetworkHelper.swift; sourceTree = "<group>"; };
+		186615081D616803006CF68F /* ASIHTTPRequest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ASIHTTPRequest.framework; path = "../../../Xcode/DerivedData/MedicineBox-erizgrjbjccanpgkkgicocfrdgsn/Build/Products/Debug-iphoneos/ASIHTTPRequest/ASIHTTPRequest.framework"; sourceTree = "<group>"; };
+		1866150A1D6168B4006CF68F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1866150C1D6168BC006CF68F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1866150E1D6168CB006CF68F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		186615101D6169A8006CF68F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1875F5B21D5C289400227030 /* EatDrugRecordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EatDrugRecordVC.swift; sourceTree = "<group>"; };
+		1875F5B51D5C2F4900227030 /* DSLCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarView.h; sourceTree = "<group>"; };
+		1875F5B61D5C2F4900227030 /* DSLCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarView.m; sourceTree = "<group>"; };
+		1875F5B71D5C2F4900227030 /* DSLCalendarMonthSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarMonthSelectorView.h; sourceTree = "<group>"; };
+		1875F5B81D5C2F4900227030 /* DSLCalendarMonthSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarMonthSelectorView.m; sourceTree = "<group>"; };
+		1875F5B91D5C2F4900227030 /* DSLCalendarMonthSelectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSLCalendarMonthSelectorView.xib; sourceTree = "<group>"; };
+		1875F5BA1D5C2F4900227030 /* DSLCalendarMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarMonthView.h; sourceTree = "<group>"; };
+		1875F5BB1D5C2F4900227030 /* DSLCalendarMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarMonthView.m; sourceTree = "<group>"; };
+		1875F5BC1D5C2F4900227030 /* DSLCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarDayView.h; sourceTree = "<group>"; };
+		1875F5BD1D5C2F4900227030 /* DSLCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarDayView.m; sourceTree = "<group>"; };
+		1875F5BE1D5C2F4900227030 /* DSLCalendarRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarRange.h; sourceTree = "<group>"; };
+		1875F5BF1D5C2F4900227030 /* DSLCalendarRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarRange.m; sourceTree = "<group>"; };
+		1875F5C01D5C2F4900227030 /* DSLCalendarDayCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarDayCalloutView.h; sourceTree = "<group>"; };
+		1875F5C11D5C2F4900227030 /* DSLCalendarDayCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarDayCalloutView.m; sourceTree = "<group>"; };
+		1875F5C21D5C2F4900227030 /* DSLCalendarDayCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSLCalendarDayCalloutView.xib; sourceTree = "<group>"; };
+		1875F5C31D5C2F4900227030 /* NSDate+DSLCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DSLCalendarView.h"; sourceTree = "<group>"; };
+		1875F5C41D5C2F4900227030 /* NSDate+DSLCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DSLCalendarView.m"; sourceTree = "<group>"; };
+		1875F5CE1D5C2FB200227030 /* 弹框关闭icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "弹框关闭icon@2x.png"; sourceTree = "<group>"; };
+		1875F5CF1D5C2FB200227030 /* 弹框关闭icon按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "弹框关闭icon按下@2x.png"; sourceTree = "<group>"; };
+		1875F5D21D5C301E00227030 /* DateTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeView.h; sourceTree = "<group>"; };
+		1875F5D31D5C301E00227030 /* DateTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTimeView.m; sourceTree = "<group>"; };
+		1875F5D41D5C301E00227030 /* DateTimeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateTimeView.xib; sourceTree = "<group>"; };
+		1875F5D71D5C30F300227030 /* MyCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalendar.h; sourceTree = "<group>"; };
+		1875F5D81D5C30F300227030 /* MyCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalendar.m; sourceTree = "<group>"; };
+		1875F5DA1D5C32C300227030 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordTableViewCell.swift; path = MyView/RecordTableViewCell.swift; sourceTree = "<group>"; };
+		1875F5DB1D5C32C300227030 /* RecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RecordTableViewCell.xib; path = MyView/RecordTableViewCell.xib; sourceTree = "<group>"; };
+		187BD8811D4B06DC00D28610 /* 删除手机按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除手机按钮@2x.png"; sourceTree = "<group>"; };
+		187BD8821D4B06DC00D28610 /* 删除手机按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除手机按钮@3x.png"; sourceTree = "<group>"; };
+		187BD8831D4B06DC00D28610 /* 删除手机按钮按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除手机按钮按下@2x.png"; sourceTree = "<group>"; };
+		187BD8841D4B06DC00D28610 /* 删除手机按钮按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除手机按钮按下@3x.png"; sourceTree = "<group>"; };
+		187BD8851D4B06DC00D28610 /* 微信ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信ICON@2x.png"; sourceTree = "<group>"; };
+		187BD8861D4B06DC00D28610 /* 微信ICON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信ICON@3x.png"; sourceTree = "<group>"; };
+		187BD8871D4B06DC00D28610 /* 微信推送背景框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信推送背景框@2x.png"; sourceTree = "<group>"; };
+		187BD8881D4B06DC00D28610 /* 微信推送背景框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信推送背景框@3x.png"; sourceTree = "<group>"; };
+		187BD8891D4B06DC00D28610 /* 提示周期选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示周期选中@2x.png"; sourceTree = "<group>"; };
+		187BD88A1D4B06DC00D28610 /* 提示周期选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示周期选中@3x.png"; sourceTree = "<group>"; };
+		187BD88B1D4B06DC00D28610 /* 提醒周期背框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提醒周期背框@2x.png"; sourceTree = "<group>"; };
+		187BD88C1D4B06DC00D28610 /* 提醒周期背框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提醒周期背框@3x.png"; sourceTree = "<group>"; };
+		187BD88D1D4B06DC00D28610 /* 添加手机按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加手机按钮@2x.png"; sourceTree = "<group>"; };
+		187BD88E1D4B06DC00D28610 /* 添加手机按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加手机按钮@3x.png"; sourceTree = "<group>"; };
+		187BD88F1D4B06DC00D28610 /* 添加手机按钮按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加手机按钮按下@2x.png"; sourceTree = "<group>"; };
+		187BD8901D4B06DC00D28610 /* 添加手机按钮按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加手机按钮按下@3x.png"; sourceTree = "<group>"; };
+		187BD8911D4B06DC00D28610 /* 短信ICON按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "短信ICON按下@2x.png"; sourceTree = "<group>"; };
+		187BD8921D4B06DC00D28610 /* 短信ICON按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "短信ICON按下@3x.png"; sourceTree = "<group>"; };
+		187BD8931D4B06DC00D28610 /* 短信推送分割线@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "短信推送分割线@2x.png"; sourceTree = "<group>"; };
+		187BD8941D4B06DC00D28610 /* 短信推送分割线@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "短信推送分割线@3x.png"; sourceTree = "<group>"; };
+		187BD8951D4B06DC00D28610 /* 短信推送背景框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "短信推送背景框@2x.png"; sourceTree = "<group>"; };
+		187BD8961D4B06DC00D28610 /* 短信推送背景框@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "短信推送背景框@3x.png"; sourceTree = "<group>"; };
+		187BD8AD1D51838400D28610 /* PersonInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonInfoVC.swift; path = VCS/PersonInfoVC.swift; sourceTree = "<group>"; };
+		187BD8B01D51C9D600D28610 /* CMDFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDFactory.h; sourceTree = "<group>"; };
+		187BD8B11D51C9D600D28610 /* CMDFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDFactory.m; sourceTree = "<group>"; };
+		187BD8B21D51C9D600D28610 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		187BD8B31D51C9D600D28610 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		187BD8B41D51C9D600D28610 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		187BD8B51D51C9D600D28610 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		187BD8B61D51C9D600D28610 /* ConfigWifi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigWifi.h; sourceTree = "<group>"; };
+		187BD8B71D51C9D600D28610 /* ConfigWifi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigWifi.m; sourceTree = "<group>"; };
+		187BD8B81D51C9D600D28610 /* ControlTcpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlTcpSocket.h; sourceTree = "<group>"; };
+		187BD8B91D51C9D600D28610 /* ControlTcpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlTcpSocket.m; sourceTree = "<group>"; };
+		187BD8BA1D51C9D600D28610 /* SmartConfig1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartConfig1.h; sourceTree = "<group>"; };
+		187BD8BB1D51C9D600D28610 /* SmartConfig1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartConfig1.m; sourceTree = "<group>"; };
+		187BD8BC1D51C9D600D28610 /* UdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpSocket.h; sourceTree = "<group>"; };
+		187BD8BD1D51C9D600D28610 /* UdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UdpSocket.m; sourceTree = "<group>"; };
+		187BD8C61D51CA2C00D28610 /* 扫码款条@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫码款条@2x.png"; sourceTree = "<group>"; };
+		187BD8C71D51CA2C00D28610 /* 扫码框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫码框@2x.png"; sourceTree = "<group>"; };
+		187BD8C81D51CA2C00D28610 /* QRScanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScanView.swift; sourceTree = "<group>"; };
+		187BD8C91D51CA2C00D28610 /* QRScan1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRScan1.xib; sourceTree = "<group>"; };
+		187BD8D41D51EBD300D28610 /* libConfiguration.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libConfiguration.a; sourceTree = "<group>"; };
+		187BD8D51D51EBD300D28610 /* ManualConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualConfig.h; sourceTree = "<group>"; };
+		187BD8D61D51EBD300D28610 /* OneShotConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneShotConfig.h; sourceTree = "<group>"; };
+		187BD8DC1D55DDA700D28610 /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigViewController.h; path = VCS/ConfigViewController.h; sourceTree = "<group>"; };
+		187BD8DD1D55DDA700D28610 /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigViewController.m; path = VCS/ConfigViewController.m; sourceTree = "<group>"; };
+		187BD8DF1D55DE0900D28610 /* Bolloon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bolloon.h; sourceTree = "<group>"; };
+		187BD8E01D55DE0900D28610 /* Bolloon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bolloon.m; sourceTree = "<group>"; };
+		1880C9251D5C6D9100CFC299 /* 默认头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认头像@2x.png"; sourceTree = "<group>"; };
+		1880C9261D5C6D9100CFC299 /* 默认头像@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认头像@3x.png"; sourceTree = "<group>"; };
+		1880C9271D5C6D9100CFC299 /* 右上角默认头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右上角默认头像@2x.png"; sourceTree = "<group>"; };
+		1880C9281D5C6D9100CFC299 /* 右上角默认头像@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右上角默认头像@3x.png"; sourceTree = "<group>"; };
+		1880C97E1D5DC62700CFC299 /* 验证码不可按@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证码不可按@3x.png"; sourceTree = "<group>"; };
+		1882CE4C1D5C6BA3004E8B0C /* MyCalendar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCalendar.xib; sourceTree = "<group>"; };
+		18A0AFAA1D62C3F30012BA45 /* EditMedicineInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMedicineInfoVC.swift; sourceTree = "<group>"; };
+		18A0AFAC1D62C8790012BA45 /* ScanQRCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScanQRCodeVC.swift; path = VCS/ScanQRCodeVC.swift; sourceTree = "<group>"; };
+		18A66BDA1D45B985006B4C65 /* LogResFPwdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogResFPwdVC.swift; path = VCS/LogResFPwdVC.swift; sourceTree = "<group>"; };
+		18A66BDE1D45C0F8006B4C65 /* 标题栏阴影@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题栏阴影@3x.png"; sourceTree = "<group>"; };
+		18A66BE01D45F6F3006B4C65 /* DeviceListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceListVC.swift; path = VCS/DeviceListVC.swift; sourceTree = "<group>"; };
+		18A66BE61D473D76006B4C65 /* BoxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoxTableViewCell.swift; path = MyView/BoxTableViewCell.swift; sourceTree = "<group>"; };
+		18A66BE71D473D76006B4C65 /* BoxTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BoxTableViewCell.xib; path = MyView/BoxTableViewCell.xib; sourceTree = "<group>"; };
+		18A66BEA1D4764D1006B4C65 /* SettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingVC.swift; path = VCS/SettingVC.swift; sourceTree = "<group>"; };
+		18A66BEC1D489C65006B4C65 /* MBoxManageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBoxManageVC.swift; path = VCS/MBoxManageVC.swift; sourceTree = "<group>"; };
+		18A66BEE1D499992006B4C65 /* MBoxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MBoxTableViewCell.swift; path = MyView/MBoxTableViewCell.swift; sourceTree = "<group>"; };
+		18A66BF01D4999C5006B4C65 /* MBoxTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBoxTableViewCell.xib; sourceTree = "<group>"; };
+		18A66BF21D49F25F006B4C65 /* EDrugManageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EDrugManageVC.swift; path = VCS/EDrugManageVC.swift; sourceTree = "<group>"; };
+		18A66BF61D49F443006B4C65 /* EatDrugTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EatDrugTableViewCell.swift; path = MyView/EatDrugTableViewCell.swift; sourceTree = "<group>"; };
+		18A66BF71D49F443006B4C65 /* EatDrugTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EatDrugTableViewCell.xib; path = MyView/EatDrugTableViewCell.xib; sourceTree = "<group>"; };
+		18AFD5AA1D61939C00F63503 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		18AFD5AB1D61939C00F63503 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		18AFD5AC1D61939C00F63503 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		18AFD5AD1D61939C00F63503 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		18AFD5AE1D61939C00F63503 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		18AFD5AF1D61939C00F63503 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		18AFD5B01D61939C00F63503 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		18AFD5B11D61939C00F63503 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		18AFD5B21D61939C00F63503 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		18AFD5B31D61939C00F63503 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		18AFD5B41D61939C00F63503 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		18AFD5B51D61939C00F63503 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		18AFD5B61D61939C00F63503 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		18AFD5B71D61939C00F63503 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		18AFD5B81D61939C00F63503 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		18AFD5B91D61939C00F63503 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		18AFD5C01D61A1FF00F63503 /* WIFI配置@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WIFI配置@3x.png"; sourceTree = "<group>"; };
+		18AFD5C11D61A1FF00F63503 /* WIFI配置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WIFI配置@2x.png"; sourceTree = "<group>"; };
+		18B0A2FC1D77D512008165D7 /* EDDateSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EDDateSetView.swift; sourceTree = "<group>"; };
+		18B0A2FD1D77D512008165D7 /* EDDateSetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EDDateSetView.xib; sourceTree = "<group>"; };
+		18B0A3011D79712B008165D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/error_list.plist; sourceTree = "<group>"; };
+		18FA72851D732DDD00616EA3 /* ImageSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectView.swift; sourceTree = "<group>"; };
+		18FA72861D732DDD00616EA3 /* ImageSelect_Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelect_Delegate.swift; sourceTree = "<group>"; };
+		18FA72891D732E3000616EA3 /* KICropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KICropImageView.h; sourceTree = "<group>"; };
+		18FA728A1D732E3000616EA3 /* KICropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KICropImageView.m; sourceTree = "<group>"; };
+		18FA728B1D732E3000616EA3 /* UIImage+KIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KIAdditions.h"; sourceTree = "<group>"; };
+		18FA728C1D732E3000616EA3 /* UIImage+KIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KIAdditions.m"; sourceTree = "<group>"; };
+		18FA728F1D73CCA200616EA3 /* SetUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUserInfoViewController.h; sourceTree = "<group>"; };
+		18FA72901D73CCA200616EA3 /* SetUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUserInfoViewController.m; sourceTree = "<group>"; };
+		3AC95219CFA3FDC01EB75E39 /* Pods_MedicineBoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicineBoxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4289AF59CCACEDE3D0DBC608 /* Pods-MedicineBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineBoxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicineBoxTests/Pods-MedicineBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4857A6E81A9A44EB432E6544 /* Pods-MedicineBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicineBox/Pods-MedicineBox.release.xcconfig"; sourceTree = "<group>"; };
+		5A203F1826ACDA0C9563D79C /* Pods-MedicineBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicineBox/Pods-MedicineBox.debug.xcconfig"; sourceTree = "<group>"; };
+		8AB662583FF3C972B781A4F1 /* Pods-MedicineBoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineBoxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicineBoxUITests/Pods-MedicineBoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DABF3D445D4BA4F50F7B2C00 /* Pods_MedicineBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicineBoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1816501EC8A840003827CF /* DeviceInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceInfoVC.swift; path = VCS/DeviceInfoVC.swift; sourceTree = "<group>"; };
+		DB2CE5151EC94B4A003BCB7D /* ？@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "？@2x.png"; sourceTree = "<group>"; };
+		DB2CE5161EC94B4A003BCB7D /* ？@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "？@3x.png"; sourceTree = "<group>"; };
+		DB2CE5171EC94B4A003BCB7D /* 删除按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除按钮@2x.png"; sourceTree = "<group>"; };
+		DB2CE5181EC94B4A003BCB7D /* 删除按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除按钮@3x.png"; sourceTree = "<group>"; };
+		DB2CE5191EC94B4A003BCB7D /* 删除按钮按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除按钮按下@2x.png"; sourceTree = "<group>"; };
+		DB2CE51A1EC94B4A003BCB7D /* 删除按钮按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除按钮按下@3x.png"; sourceTree = "<group>"; };
+		DB2CE51B1EC94B4A003BCB7D /* 设备信息icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设备信息icon@2x.png"; sourceTree = "<group>"; };
+		DB2CE51C1EC94B4A003BCB7D /* 设备信息icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设备信息icon@3x.png"; sourceTree = "<group>"; };
+		DB6695261EF777F300CB12CB /* hotelcity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hotelcity.json; sourceTree = "<group>"; };
+		DB6695271EF777F300CB12CB /* address.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = address.json; sourceTree = "<group>"; };
+		DBE369791F03AFF4008D3323 /* CityChooseViewCreater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityChooseViewCreater.h; sourceTree = "<group>"; };
+		DBE3697A1F03AFF4008D3323 /* CityChooseViewCreater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityChooseViewCreater.m; sourceTree = "<group>"; };
+		ED6363952B8C7C695424292D /* Pods-MedicineBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineBoxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicineBoxUITests/Pods-MedicineBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F966BD55AC8FACF49872A30F /* Pods-MedicineBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineBoxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicineBoxTests/Pods-MedicineBoxTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184928321D3F115D006D2D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186615111D6169A8006CF68F /* SystemConfiguration.framework in Frameworks */,
+				1866150F1D6168CB006CF68F /* MobileCoreServices.framework in Frameworks */,
+				1826A05C1D41FA6600D483DB /* Foundation.framework in Frameworks */,
+				1866150D1D6168BC006CF68F /* CoreGraphics.framework in Frameworks */,
+				1866150B1D6168B4006CF68F /* CFNetwork.framework in Frameworks */,
+				187BD8D71D51EBD300D28610 /* libConfiguration.a in Frameworks */,
+				1826A05E1D41FAD000D483DB /* libz.tbd in Frameworks */,
+				1826A0571D41D7E300D483DB /* Protocol.framework in Frameworks */,
+				0B1CE87866A94688DB61C102 /* Pods_MedicineBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184928461D3F115D006D2D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF664996897F1109B98E2EC /* Pods_MedicineBoxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184928511D3F115D006D2D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1286FD3A23824488A4C9B44D /* Pods_MedicineBoxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B3F47A01F8E0EF30065297A /* ios11 Nav解决方法 */ = {
+			isa = PBXGroup;
+			children = (
+				0B4E8CB02063C558000B1C5C /* UIViewController+BarButton.h */,
+				0B4E8CAF2063C558000B1C5C /* UIViewController+BarButton.m */,
+			);
+			path = "ios11 Nav解决方法";
+			sourceTree = "<group>";
+		};
+		1826A0321D41D70100D483DB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0B3F47A01F8E0EF30065297A /* ios11 Nav解决方法 */,
+				187BD8AF1D51C9C900D28610 /* Config */,
+				1826A04F1D41D7A700D483DB /* VersionUpdateUtils */,
+				1826A0421D41D76000D483DB /* GlobalMethod.h */,
+				1826A0431D41D76000D483DB /* GlobalMethod.m */,
+				DBE369791F03AFF4008D3323 /* CityChooseViewCreater.h */,
+				DBE3697A1F03AFF4008D3323 /* CityChooseViewCreater.m */,
+				1826A0441D41D76000D483DB /* MyGlobalData.h */,
+				1826A0451D41D76000D483DB /* MyGlobalData.m */,
+				1826A0331D41D70D00D483DB /* ASIHTTPHelper.h */,
+				1826A0341D41D70D00D483DB /* ASIHTTPHelper.m */,
+				1826A0371D41D70D00D483DB /* ImageUtils.h */,
+				1826A0381D41D70D00D483DB /* ImageUtils.m */,
+				1826A0391D41D70D00D483DB /* ThreeDES.h */,
+				1826A03A1D41D70D00D483DB /* ThreeDES.m */,
+				1826A03B1D41D70D00D483DB /* Util.h */,
+				1826A03C1D41D70D00D483DB /* Util.m */,
+				1836B4BE1D421BD7002CF493 /* UtilSw.swift */,
+				0B77C1451F1855F7007D1495 /* TokenSocket.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		1826A0481D41D78500D483DB /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				18AFD5A91D61938000F63503 /* ASIHttp */,
+				1826A0491D41D79200D483DB /* PublicCmdHelper.h */,
+				1826A04A1D41D79200D483DB /* PublicCmdHelper.m */,
+				1826A04B1D41D79200D483DB /* SessionManger.h */,
+				1826A04C1D41D79200D483DB /* SessionManger.m */,
+				186614D81D5F315F006CF68F /* ImageNetworkHelper.swift */,
+				0B829F1B1F0CE65300F46D8F /* PushCMDHelper.h */,
+				0B829F1C1F0CE65300F46D8F /* PushCMDHelper.m */,
+			);
+			name = NetWork;
+			sourceTree = "<group>";
+		};
+		1826A04F1D41D7A700D483DB /* VersionUpdateUtils */ = {
+			isa = PBXGroup;
+			children = (
+				1826A0501D41D7A700D483DB /* AppUpdateByAppStore.h */,
+				1826A0511D41D7A700D483DB /* AppUpdateByAppStore.m */,
+			);
+			path = VersionUpdateUtils;
+			sourceTree = "<group>";
+		};
+		1849282C1D3F115D006D2D1C = {
+			isa = PBXGroup;
+			children = (
+				1826A02E1D41D61600D483DB /* MedicineBox-Bridging-Header.h */,
+				184928371D3F115D006D2D1C /* MedicineBox */,
+				18A66BD81D45B90A006B4C65 /* ViewControler */,
+				184929C51D3F3363006D2D1C /* MyView */,
+				1826A0481D41D78500D483DB /* NetWork */,
+				1826A0321D41D70100D483DB /* Utils */,
+				184928661D3F12DF006D2D1C /* 切图 */,
+				1849284C1D3F115D006D2D1C /* MedicineBoxTests */,
+				184928571D3F115D006D2D1C /* MedicineBoxUITests */,
+				184928361D3F115D006D2D1C /* Products */,
+				D181862FB647ADE23CD5B416 /* Pods */,
+				838BA5E0E0C290084975964C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184928361D3F115D006D2D1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184928351D3F115D006D2D1C /* MedicineBox.app */,
+				184928491D3F115D006D2D1C /* MedicineBoxTests.xctest */,
+				184928541D3F115D006D2D1C /* MedicineBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184928371D3F115D006D2D1C /* MedicineBox */ = {
+			isa = PBXGroup;
+			children = (
+				0B1796301F0C99B300FD90DE /* MedicineBox.entitlements */,
+				DB6695261EF777F300CB12CB /* hotelcity.json */,
+				DB6695271EF777F300CB12CB /* address.json */,
+				18B0A3021D79712B008165D7 /* error_list.plist */,
+				184928381D3F115D006D2D1C /* AppDelegate.swift */,
+				1849283A1D3F115D006D2D1C /* ViewController.swift */,
+				1849283C1D3F115D006D2D1C /* Main.storyboard */,
+				1849283F1D3F115D006D2D1C /* Assets.xcassets */,
+				184928411D3F115D006D2D1C /* LaunchScreen.storyboard */,
+				184928441D3F115D006D2D1C /* Info.plist */,
+			);
+			path = MedicineBox;
+			sourceTree = "<group>";
+		};
+		1849284C1D3F115D006D2D1C /* MedicineBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				1849284D1D3F115D006D2D1C /* MedicineBoxTests.swift */,
+				1849284F1D3F115D006D2D1C /* Info.plist */,
+			);
+			path = MedicineBoxTests;
+			sourceTree = "<group>";
+		};
+		184928571D3F115D006D2D1C /* MedicineBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184928581D3F115D006D2D1C /* MedicineBoxUITests.swift */,
+				1849285A1D3F115D006D2D1C /* Info.plist */,
+			);
+			path = MedicineBoxUITests;
+			sourceTree = "<group>";
+		};
+		184928661D3F12DF006D2D1C /* 切图 */ = {
+			isa = PBXGroup;
+			children = (
+				0B983B142091BEE400DC49AA /* 日历选中按钮@2x.png */,
+				186614D61D5F2E46006CF68F /* 相框1.png */,
+				DB2CE5151EC94B4A003BCB7D /* ？@2x.png */,
+				DB2CE5161EC94B4A003BCB7D /* ？@3x.png */,
+				DB2CE5171EC94B4A003BCB7D /* 删除按钮@2x.png */,
+				DB2CE5181EC94B4A003BCB7D /* 删除按钮@3x.png */,
+				DB2CE5191EC94B4A003BCB7D /* 删除按钮按下@2x.png */,
+				DB2CE51A1EC94B4A003BCB7D /* 删除按钮按下@3x.png */,
+				DB2CE51B1EC94B4A003BCB7D /* 设备信息icon@2x.png */,
+				DB2CE51C1EC94B4A003BCB7D /* 设备信息icon@3x.png */,
+				18603EA11D65CC84002859A4 /* 显示当前日期@2x.png */,
+				185DACC31D640C7700550063 /* 日历面板@2x.png */,
+				18AFD5C01D61A1FF00F63503 /* WIFI配置@3x.png */,
+				18AFD5C11D61A1FF00F63503 /* WIFI配置@2x.png */,
+				1880C97E1D5DC62700CFC299 /* 验证码不可按@3x.png */,
+				1880C9251D5C6D9100CFC299 /* 默认头像@2x.png */,
+				1880C9261D5C6D9100CFC299 /* 默认头像@3x.png */,
+				1880C9271D5C6D9100CFC299 /* 右上角默认头像@2x.png */,
+				1880C9281D5C6D9100CFC299 /* 右上角默认头像@3x.png */,
+				187BD8801D4B06DC00D28610 /* IOS */,
+				184928671D3F12DF006D2D1C /* @2x */,
+				184928BF1D3F12DF006D2D1C /* @3x */,
+			);
+			path = "切图";
+			sourceTree = "<group>";
+		};
+		184928671D3F12DF006D2D1C /* @2x */ = {
+			isa = PBXGroup;
+			children = (
+				184928681D3F12DF006D2D1C /* logo@2x.png */,
+				184928691D3F12DF006D2D1C /* 个人信息头像显示区域@2x.png */,
+				1849286A1D3F12DF006D2D1C /* 减一个@2x.png */,
+				1849286B1D3F12DF006D2D1C /* 减一个按下@2x.png */,
+				1849286C1D3F12DF006D2D1C /* 列表显示头像区域@2x.png */,
+				1849286D1D3F12DF006D2D1C /* 列表栏@2x.png */,
+				1849286E1D3F12DF006D2D1C /* 列表框@2x.png */,
+				1849286F1D3F12DF006D2D1C /* 列表横分割线@2x.png */,
+				184928701D3F12DF006D2D1C /* 列表竖分割线@2x.png */,
+				184928711D3F12DF006D2D1C /* 加一个@2x.png */,
+				184928721D3F12DF006D2D1C /* 加一个按下@2x.png */,
+				184928731D3F12DF006D2D1C /* 右上角显示头像区域@2x.png */,
+				184928741D3F12DF006D2D1C /* 定时底框@2x.png */,
+				184928751D3F12DF006D2D1C /* 定时提醒ICON@2x.png */,
+				184928761D3F12DF006D2D1C /* 定时提醒ICON选中@2x.png */,
+				184928771D3F12DF006D2D1C /* 定时重复时间框@2x.png */,
+				184928781D3F12DF006D2D1C /* 定时重复没选中@2x.png */,
+				184928791D3F12DF006D2D1C /* 定时重复选中@2x.png */,
+				1849287A1D3F12DF006D2D1C /* 密码显示小球@2x.png */,
+				1849287B1D3F12DF006D2D1C /* 密码锁@2x.png */,
+				1849287C1D3F12DF006D2D1C /* 已连接按钮@2x.png */,
+				1849287D1D3F12DF006D2D1C /* 已连接按钮按下@2x.png */,
+				1849287E1D3F12DF006D2D1C /* 延时取药@2x.png */,
+				1849287F1D3F12DF006D2D1C /* 当前时间选中圈@2x.png */,
+				184928801D3F12DF006D2D1C /* 扫描ICON@2x.png */,
+				184928811D3F12DF006D2D1C /* 扫描ICON按下@2x.png */,
+				184928821D3F12DF006D2D1C /* 扫描横条@2x.png */,
+				184928831D3F12DF006D2D1C /* 扫码边框@2x.png */,
+				184928841D3F12DF006D2D1C /* 按时取药@2x.png */,
+				184928851D3F12DF006D2D1C /* 日历ICON.@2x.png */,
+				184928861D3F12DF006D2D1C /* 日历ICON选中@2x.png */,
+				184928871D3F12DF006D2D1C /* 日历右箭头@2x.png */,
+				184928881D3F12DF006D2D1C /* 日历右箭头按下@2x.png */,
+				184928891D3F12DF006D2D1C /* 日历左箭头@2x.png */,
+				1849288A1D3F12DF006D2D1C /* 日历左箭头按下@2x.png */,
+				1849288B1D3F12DF006D2D1C /* 日历底版@2x.png */,
+				1849288C1D3F12DF006D2D1C /* 显示密码@2x.png */,
+				1849288D1D3F12DF006D2D1C /* 显示密码按下@2x.png */,
+				1849288E1D3F12DF006D2D1C /* 显示路由器框@2x.png */,
+				1849288F1D3F12DF006D2D1C /* 没有取药@2x.png */,
+				184928901D3F12DF006D2D1C /* 没有编辑提示小红点@2x.png */,
+				184928911D3F12DF006D2D1C /* 没选中圈@2x.png */,
+				184928921D3F12DF006D2D1C /* 注册，登陆按钮@2x.png */,
+				184928931D3F12DF006D2D1C /* 注册，登陆按钮按下@2x.png */,
+				184928941D3F12DF006D2D1C /* 添加ICON@2x.png */,
+				184928951D3F12DF006D2D1C /* 添加ICON按下@2x.png */,
+				184928961D3F12DF006D2D1C /* 登陆注册背景@2x.png */,
+				184928971D3F12DF006D2D1C /* 知道了框@2x.png */,
+				184928981D3F12DF006D2D1C /* 知道了框按下@2x.png */,
+				184928991D3F12DF006D2D1C /* 编辑信息头像底框@2x.png */,
+				1849289A1D3F12DF006D2D1C /* 背景@2x.png */,
+				1849289B1D3F12DF006D2D1C /* 药品信息框@2x.png */,
+				1849289C1D3F12DF006D2D1C /* 药品图片显示区域@2x.png */,
+				1849289D1D3F12DF006D2D1C /* 药箱ICON@2x.png */,
+				1849289E1D3F12DF006D2D1C /* 药箱ICON选中@2x.png */,
+				1849289F1D3F12DF006D2D1C /* 药箱记录ICON@2x.png */,
+				184928A01D3F12DF006D2D1C /* 药箱记录ICON选中@2x.png */,
+				184928A11D3F12DF006D2D1C /* 药箱记录标题@2x.png */,
+				184928A21D3F12DF006D2D1C /* 获取验证码按钮常态@2x.png */,
+				184928A31D3F12DF006D2D1C /* 获取验证码按钮按下@2x.png */,
+				184928A41D3F12DF006D2D1C /* 蓝底右箭头@2x.png */,
+				184928A51D3F12DF006D2D1C /* 蓝底右箭头按下@2x.png */,
+				184928A61D3F12DF006D2D1C /* 角标@2x.png */,
+				184928A71D3F12DF006D2D1C /* 记录切换时间右箭头@2x.png */,
+				184928A81D3F12DF006D2D1C /* 记录切换时间右箭头按下@2x.png */,
+				184928A91D3F12DF006D2D1C /* 记录切换时间左箭头@2x.png */,
+				184928AA1D3F12DF006D2D1C /* 记录切换时间左箭头按下@2x.png */,
+				184928AB1D3F12DF006D2D1C /* 记录竖分割线@2x.png */,
+				184928AC1D3F12DF006D2D1C /* 设置ICON@2x.png */,
+				184928AD1D3F12DF006D2D1C /* 设置ICON按下@2x.png */,
+				184928AE1D3F12DF006D2D1C /* 账号小人@2x.png */,
+				184928AF1D3F12DF006D2D1C /* 资料编辑ICON@2x.png */,
+				184928B01D3F12DF006D2D1C /* 资料编辑ICON选中@2x.png */,
+				184928B11D3F12DF006D2D1C /* 输入框不可按@2x.png */,
+				184928B21D3F12DF006D2D1C /* 输入框常态@2x.png */,
+				184928B31D3F12DF006D2D1C /* 输入框选中状态@2x.png */,
+				184928B41D3F12DF006D2D1C /* 返回ICON@2x.png */,
+				184928B51D3F12DF006D2D1C /* 返回ICON按下@2x.png */,
+				184928B61D3F12DF006D2D1C /* 选中圈@2x.png */,
+				184928B71D3F12DF006D2D1C /* 选中蓝底@2x.png */,
+				184928B81D3F12DF006D2D1C /* 选择药品箭头@2x.png */,
+				184928B91D3F12DF006D2D1C /* 选择药品箭头右箭头@2x.png */,
+				184928BA1D3F12DF006D2D1C /* 配置WIFI图标@2x.png */,
+				184928BB1D3F12DF006D2D1C /* 配置小球@2x.png */,
+				184928BC1D3F12DF006D2D1C /* 验证码不可按@2x.png */,
+				184928BD1D3F12DF006D2D1C /* 验证码输入框常态@2x.png */,
+				184928BE1D3F12DF006D2D1C /* 验证码输入框选中@2x.png */,
+			);
+			path = "@2x";
+			sourceTree = "<group>";
+		};
+		184928BF1D3F12DF006D2D1C /* @3x */ = {
+			isa = PBXGroup;
+			children = (
+				18A66BDE1D45C0F8006B4C65 /* 标题栏阴影@3x.png */,
+				184928C01D3F12DF006D2D1C /* logo@3x.png */,
+				184928C11D3F12DF006D2D1C /* 个人信息头像显示区域@3x.png */,
+				184928C21D3F12DF006D2D1C /* 减一个@3x.png */,
+				184928C31D3F12DF006D2D1C /* 减一个按下@3x.png */,
+				184928C41D3F12DF006D2D1C /* 列表显示头像区域@3x.png */,
+				184928C51D3F12DF006D2D1C /* 列表栏@3x.png */,
+				184928C61D3F12DF006D2D1C /* 列表框@3x.png */,
+				184928C71D3F12DF006D2D1C /* 列表横分割线@3x.png */,
+				184928C81D3F12DF006D2D1C /* 列表竖分割线@3x.png */,
+				184928C91D3F12DF006D2D1C /* 加一个@3x.png */,
+				184928CA1D3F12DF006D2D1C /* 加一个按下@3x.png */,
+				184928CB1D3F12DF006D2D1C /* 右上角显示头像区域@3x.png */,
+				184928CC1D3F12DF006D2D1C /* 定时底框@3x.png */,
+				184928CD1D3F12DF006D2D1C /* 定时提醒ICON@3x.png */,
+				184928CE1D3F12DF006D2D1C /* 定时提醒ICON选中@3x.png */,
+				184928CF1D3F12DF006D2D1C /* 定时重复时间框@3x.png */,
+				184928D01D3F12DF006D2D1C /* 定时重复没选中@3x.png */,
+				184928D11D3F12DF006D2D1C /* 定时重复选中@3x.png */,
+				184928D21D3F12DF006D2D1C /* 密码显示小球@3x.png */,
+				184928D31D3F12DF006D2D1C /* 密码锁@3x.png */,
+				184928D41D3F12DF006D2D1C /* 已连接按钮@3x.png */,
+				184928D51D3F12DF006D2D1C /* 已连接按钮按下@3x.png */,
+				184928D61D3F12DF006D2D1C /* 延时取药@3x.png */,
+				184928D71D3F12DF006D2D1C /* 当前时间选中圈@3x.png */,
+				184928D81D3F12DF006D2D1C /* 扫描ICON@3x.png */,
+				184928D91D3F12DF006D2D1C /* 扫描ICON按下@3x.png */,
+				184928DA1D3F12DF006D2D1C /* 扫描横条@3x.png */,
+				184928DB1D3F12DF006D2D1C /* 扫码边框@3x.png */,
+				184928DC1D3F12DF006D2D1C /* 按时取药@3x.png */,
+				184928DD1D3F12DF006D2D1C /* 日历ICON.@3x.png */,
+				184928DE1D3F12DF006D2D1C /* 日历ICON选中@3x.png */,
+				184928DF1D3F12DF006D2D1C /* 日历右箭头@3x.png */,
+				184928E01D3F12DF006D2D1C /* 日历右箭头按下@3x.png */,
+				184928E11D3F12DF006D2D1C /* 日历左箭头@3x.png */,
+				184928E21D3F12DF006D2D1C /* 日历左箭头按下@3x.png */,
+				184928E31D3F12DF006D2D1C /* 日历底版@3x.png */,
+				184928E41D3F12DF006D2D1C /* 显示密码@3x.png */,
+				184928E51D3F12DF006D2D1C /* 显示密码按下@3x.png */,
+				184928E61D3F12DF006D2D1C /* 显示路由器框@3x.png */,
+				184928E71D3F12DF006D2D1C /* 没有取药@3x.png */,
+				184928E81D3F12DF006D2D1C /* 没有编辑提示小红点@3x.png */,
+				184928E91D3F12DF006D2D1C /* 没选中圈@3x.png */,
+				184928EA1D3F12DF006D2D1C /* 注册，登陆按钮@3x.png */,
+				184928EB1D3F12DF006D2D1C /* 注册，登陆按钮按下@3x.png */,
+				184928EC1D3F12DF006D2D1C /* 添加ICON@3x.png */,
+				184928ED1D3F12DF006D2D1C /* 添加ICON按下@3x.png */,
+				184928EE1D3F12DF006D2D1C /* 登陆注册背景@3x.png */,
+				184928EF1D3F12DF006D2D1C /* 知道了框@3x.png */,
+				184928F01D3F12DF006D2D1C /* 知道了框按下@3x.png */,
+				184928F11D3F12DF006D2D1C /* 编辑信息头像底框@3x.png */,
+				184928F21D3F12DF006D2D1C /* 背景@3x.png */,
+				184928F31D3F12DF006D2D1C /* 药品信息框@3x.png */,
+				184928F41D3F12DF006D2D1C /* 药品图片显示区域@3x.png */,
+				184928F51D3F12DF006D2D1C /* 药箱ICON@3x.png */,
+				184928F61D3F12DF006D2D1C /* 药箱ICON选中@3x.png */,
+				184928F71D3F12DF006D2D1C /* 药箱记录ICON@3x.png */,
+				184928F81D3F12DF006D2D1C /* 药箱记录ICON选中@3x.png */,
+				184928F91D3F12DF006D2D1C /* 药箱记录标题@3x.png */,
+				184928FA1D3F12DF006D2D1C /* 获取验证码按钮常态@3x.png */,
+				184928FB1D3F12DF006D2D1C /* 获取验证码按钮按下@3x.png */,
+				184928FC1D3F12DF006D2D1C /* 蓝底右箭头@3x.png */,
+				184928FD1D3F12DF006D2D1C /* 蓝底右箭头按下@3x.png */,
+				184928FE1D3F12DF006D2D1C /* 角标@3x.png */,
+				184928FF1D3F12DF006D2D1C /* 记录切换时间右箭头@3x.png */,
+				184929001D3F12DF006D2D1C /* 记录切换时间右箭头按下@3x.png */,
+				184929011D3F12DF006D2D1C /* 记录切换时间左箭头@3x.png */,
+				184929021D3F12DF006D2D1C /* 记录切换时间左箭头按下@3x.png */,
+				184929031D3F12DF006D2D1C /* 记录竖分割线@3x.png */,
+				184929041D3F12DF006D2D1C /* 设置ICON@3x.png */,
+				184929051D3F12DF006D2D1C /* 设置ICON按下@3x.png */,
+				184929061D3F12DF006D2D1C /* 账号小人@3x.png */,
+				184929071D3F12DF006D2D1C /* 资料编辑ICON@3x.png */,
+				184929081D3F12DF006D2D1C /* 资料编辑ICON选中@3x.png */,
+				184929091D3F12DF006D2D1C /* 输入框不可按@3x.png */,
+				1849290A1D3F12DF006D2D1C /* 输入框常态@3x.png */,
+				1849290B1D3F12DF006D2D1C /* 输入框选中状态@3x.png */,
+				1849290C1D3F12DF006D2D1C /* 返回ICON@3x.png */,
+				1849290D1D3F12DF006D2D1C /* 返回ICON按下@3x.png */,
+				1849290E1D3F12DF006D2D1C /* 选中圈@3x.png */,
+				1849290F1D3F12DF006D2D1C /* 选中蓝底@3x.png */,
+				184929101D3F12DF006D2D1C /* 选择药品箭头@3x.png */,
+				184929111D3F12DF006D2D1C /* 选择药品箭头右箭头@3x.png */,
+				184929121D3F12DF006D2D1C /* 配置WIFI图标@3x.png */,
+				184929131D3F12DF006D2D1C /* 配置小球@3x.png */,
+				184929151D3F12DF006D2D1C /* 验证码输入框常态@3x.png */,
+				184929161D3F12DF006D2D1C /* 验证码输入框选中@3x.png */,
+			);
+			path = "@3x";
+			sourceTree = "<group>";
+		};
+		184929C51D3F3363006D2D1C /* MyView */ = {
+			isa = PBXGroup;
+			children = (
+				18FA72851D732DDD00616EA3 /* ImageSelectView.swift */,
+				18FA72861D732DDD00616EA3 /* ImageSelect_Delegate.swift */,
+				18FA72891D732E3000616EA3 /* KICropImageView.h */,
+				18FA728A1D732E3000616EA3 /* KICropImageView.m */,
+				18FA728B1D732E3000616EA3 /* UIImage+KIAdditions.h */,
+				18FA728C1D732E3000616EA3 /* UIImage+KIAdditions.m */,
+				1875F5B41D5C2F3900227030 /* Calendar */,
+				187BD8C51D51CA1800D28610 /* qrscan */,
+				187BD8DF1D55DE0900D28610 /* Bolloon.h */,
+				187BD8E01D55DE0900D28610 /* Bolloon.m */,
+				18B0A2FC1D77D512008165D7 /* EDDateSetView.swift */,
+				18B0A2FD1D77D512008165D7 /* EDDateSetView.xib */,
+				1875F5D21D5C301E00227030 /* DateTimeView.h */,
+				1875F5D31D5C301E00227030 /* DateTimeView.m */,
+				1875F5D41D5C301E00227030 /* DateTimeView.xib */,
+				183410971D64A1E8009A10A4 /* CycleSetView.swift */,
+				184929C61D3F338E006D2D1C /* LogResForView.xib */,
+				1826A02A1D41BA8000D483DB /* LoginVIew.swift */,
+				1826A02C1D41BAA700D483DB /* ResFindVIew.swift */,
+				1826A05F1D420C1B00D483DB /* LogResForViews.xib */,
+				18A66BE61D473D76006B4C65 /* BoxTableViewCell.swift */,
+				18A66BE71D473D76006B4C65 /* BoxTableViewCell.xib */,
+				18A66BEE1D499992006B4C65 /* MBoxTableViewCell.swift */,
+				18A66BF01D4999C5006B4C65 /* MBoxTableViewCell.xib */,
+				18A66BF61D49F443006B4C65 /* EatDrugTableViewCell.swift */,
+				18A66BF71D49F443006B4C65 /* EatDrugTableViewCell.xib */,
+				1875F5DA1D5C32C300227030 /* RecordTableViewCell.swift */,
+				1875F5DB1D5C32C300227030 /* RecordTableViewCell.xib */,
+				185DACC71D64951200550063 /* SchemeTimeTableViewCell.swift */,
+				185DACC81D64951200550063 /* SchemeTimeTableViewCell.xib */,
+				1834109B1D64A79F009A10A4 /* BirthView.h */,
+				1834109C1D64A79F009A10A4 /* BirthView.m */,
+				1834109D1D64A79F009A10A4 /* BirthView.xib */,
+				0BC045B11FF22B7B00597223 /* MyAlertView.swift */,
+			);
+			name = MyView;
+			sourceTree = "<group>";
+		};
+		1875F5B41D5C2F3900227030 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				1875F5D71D5C30F300227030 /* MyCalendar.h */,
+				1875F5D81D5C30F300227030 /* MyCalendar.m */,
+				1882CE4C1D5C6BA3004E8B0C /* MyCalendar.xib */,
+				1875F5CE1D5C2FB200227030 /* 弹框关闭icon@2x.png */,
+				1875F5CF1D5C2FB200227030 /* 弹框关闭icon按下@2x.png */,
+				1875F5B51D5C2F4900227030 /* DSLCalendarView.h */,
+				1875F5B61D5C2F4900227030 /* DSLCalendarView.m */,
+				1875F5B71D5C2F4900227030 /* DSLCalendarMonthSelectorView.h */,
+				1875F5B81D5C2F4900227030 /* DSLCalendarMonthSelectorView.m */,
+				1875F5B91D5C2F4900227030 /* DSLCalendarMonthSelectorView.xib */,
+				1875F5BA1D5C2F4900227030 /* DSLCalendarMonthView.h */,
+				1875F5BB1D5C2F4900227030 /* DSLCalendarMonthView.m */,
+				1875F5BC1D5C2F4900227030 /* DSLCalendarDayView.h */,
+				1875F5BD1D5C2F4900227030 /* DSLCalendarDayView.m */,
+				1875F5BE1D5C2F4900227030 /* DSLCalendarRange.h */,
+				1875F5BF1D5C2F4900227030 /* DSLCalendarRange.m */,
+				1875F5C01D5C2F4900227030 /* DSLCalendarDayCalloutView.h */,
+				1875F5C11D5C2F4900227030 /* DSLCalendarDayCalloutView.m */,
+				1875F5C21D5C2F4900227030 /* DSLCalendarDayCalloutView.xib */,
+				1875F5C31D5C2F4900227030 /* NSDate+DSLCalendarView.h */,
+				1875F5C41D5C2F4900227030 /* NSDate+DSLCalendarView.m */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		187BD8801D4B06DC00D28610 /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+				187BD8811D4B06DC00D28610 /* 删除手机按钮@2x.png */,
+				187BD8821D4B06DC00D28610 /* 删除手机按钮@3x.png */,
+				187BD8831D4B06DC00D28610 /* 删除手机按钮按下@2x.png */,
+				187BD8841D4B06DC00D28610 /* 删除手机按钮按下@3x.png */,
+				187BD8851D4B06DC00D28610 /* 微信ICON@2x.png */,
+				187BD8861D4B06DC00D28610 /* 微信ICON@3x.png */,
+				187BD8871D4B06DC00D28610 /* 微信推送背景框@2x.png */,
+				187BD8881D4B06DC00D28610 /* 微信推送背景框@3x.png */,
+				187BD8891D4B06DC00D28610 /* 提示周期选中@2x.png */,
+				187BD88A1D4B06DC00D28610 /* 提示周期选中@3x.png */,
+				187BD88B1D4B06DC00D28610 /* 提醒周期背框@2x.png */,
+				187BD88C1D4B06DC00D28610 /* 提醒周期背框@3x.png */,
+				187BD88D1D4B06DC00D28610 /* 添加手机按钮@2x.png */,
+				187BD88E1D4B06DC00D28610 /* 添加手机按钮@3x.png */,
+				187BD88F1D4B06DC00D28610 /* 添加手机按钮按下@2x.png */,
+				187BD8901D4B06DC00D28610 /* 添加手机按钮按下@3x.png */,
+				187BD8911D4B06DC00D28610 /* 短信ICON按下@2x.png */,
+				187BD8921D4B06DC00D28610 /* 短信ICON按下@3x.png */,
+				187BD8931D4B06DC00D28610 /* 短信推送分割线@2x.png */,
+				187BD8941D4B06DC00D28610 /* 短信推送分割线@3x.png */,
+				187BD8951D4B06DC00D28610 /* 短信推送背景框@2x.png */,
+				187BD8961D4B06DC00D28610 /* 短信推送背景框@3x.png */,
+			);
+			path = IOS;
+			sourceTree = "<group>";
+		};
+		187BD8AF1D51C9C900D28610 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				187BD8D81D51EBE600D28610 /* OneShot */,
+				187BD8B01D51C9D600D28610 /* CMDFactory.h */,
+				187BD8B11D51C9D600D28610 /* CMDFactory.m */,
+				187BD8B21D51C9D600D28610 /* AsyncSocket.h */,
+				187BD8B31D51C9D600D28610 /* AsyncSocket.m */,
+				187BD8B41D51C9D600D28610 /* AsyncUdpSocket.h */,
+				187BD8B51D51C9D600D28610 /* AsyncUdpSocket.m */,
+				187BD8B61D51C9D600D28610 /* ConfigWifi.h */,
+				187BD8B71D51C9D600D28610 /* ConfigWifi.m */,
+				187BD8B81D51C9D600D28610 /* ControlTcpSocket.h */,
+				187BD8B91D51C9D600D28610 /* ControlTcpSocket.m */,
+				187BD8BA1D51C9D600D28610 /* SmartConfig1.h */,
+				187BD8BB1D51C9D600D28610 /* SmartConfig1.m */,
+				187BD8BC1D51C9D600D28610 /* UdpSocket.h */,
+				187BD8BD1D51C9D600D28610 /* UdpSocket.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		187BD8C51D51CA1800D28610 /* qrscan */ = {
+			isa = PBXGroup;
+			children = (
+				187BD8C61D51CA2C00D28610 /* 扫码款条@2x.png */,
+				187BD8C71D51CA2C00D28610 /* 扫码框@2x.png */,
+				187BD8C81D51CA2C00D28610 /* QRScanView.swift */,
+				187BD8C91D51CA2C00D28610 /* QRScan1.xib */,
+			);
+			name = qrscan;
+			sourceTree = "<group>";
+		};
+		187BD8D81D51EBE600D28610 /* OneShot */ = {
+			isa = PBXGroup;
+			children = (
+				187BD8D41D51EBD300D28610 /* libConfiguration.a */,
+				187BD8D51D51EBD300D28610 /* ManualConfig.h */,
+				187BD8D61D51EBD300D28610 /* OneShotConfig.h */,
+			);
+			name = OneShot;
+			sourceTree = "<group>";
+		};
+		18A0AFA91D62C3BA0012BA45 /* SubVCS */ = {
+			isa = PBXGroup;
+			children = (
+				185DACC51D64917900550063 /* EditTimeSchemeVC.swift */,
+				18A0AFAA1D62C3F30012BA45 /* EditMedicineInfoVC.swift */,
+				18A0AFAC1D62C8790012BA45 /* ScanQRCodeVC.swift */,
+				18603EA31D65E8FC002859A4 /* PushSetViewController.swift */,
+				18603EA51D65EAF8002859A4 /* ChangePwdVC.swift */,
+				18603EA71D669B42002859A4 /* BindPhoneVC.swift */,
+				1824E3B21D815F880050F0CE /* DrugInfoVC.swift */,
+				DB1816501EC8A840003827CF /* DeviceInfoVC.swift */,
+				0BAE48041F6BCFD400A3692C /* InputDrugInHandVC.swift */,
+			);
+			name = SubVCS;
+			sourceTree = "<group>";
+		};
+		18A66BD81D45B90A006B4C65 /* ViewControler */ = {
+			isa = PBXGroup;
+			children = (
+				18A0AFA91D62C3BA0012BA45 /* SubVCS */,
+				18A66BDA1D45B985006B4C65 /* LogResFPwdVC.swift */,
+				18A66BE01D45F6F3006B4C65 /* DeviceListVC.swift */,
+				18A66BEC1D489C65006B4C65 /* MBoxManageVC.swift */,
+				1875F5B21D5C289400227030 /* EatDrugRecordVC.swift */,
+				18A66BF21D49F25F006B4C65 /* EDrugManageVC.swift */,
+				187BD8AD1D51838400D28610 /* PersonInfoVC.swift */,
+				18A66BEA1D4764D1006B4C65 /* SettingVC.swift */,
+				187BD8DC1D55DDA700D28610 /* ConfigViewController.h */,
+				187BD8DD1D55DDA700D28610 /* ConfigViewController.m */,
+				18FA728F1D73CCA200616EA3 /* SetUserInfoViewController.h */,
+				18FA72901D73CCA200616EA3 /* SetUserInfoViewController.m */,
+			);
+			name = ViewControler;
+			sourceTree = "<group>";
+		};
+		18AFD5A91D61938000F63503 /* ASIHttp */ = {
+			isa = PBXGroup;
+			children = (
+				18AFD5AA1D61939C00F63503 /* ASIHTTPRequestConfig.h */,
+				18AFD5AB1D61939C00F63503 /* ASICacheDelegate.h */,
+				18AFD5AC1D61939C00F63503 /* ASIHTTPRequestDelegate.h */,
+				18AFD5AD1D61939C00F63503 /* ASIProgressDelegate.h */,
+				18AFD5AE1D61939C00F63503 /* ASIAuthenticationDialog.h */,
+				18AFD5AF1D61939C00F63503 /* ASIAuthenticationDialog.m */,
+				18AFD5B01D61939C00F63503 /* ASIInputStream.h */,
+				18AFD5B11D61939C00F63503 /* ASIInputStream.m */,
+				18AFD5B21D61939C00F63503 /* ASIHTTPRequest.h */,
+				18AFD5B31D61939C00F63503 /* ASIHTTPRequest.m */,
+				18AFD5B41D61939C00F63503 /* ASIFormDataRequest.h */,
+				18AFD5B51D61939C00F63503 /* ASIFormDataRequest.m */,
+				18AFD5B61D61939C00F63503 /* ASIDataDecompressor.h */,
+				18AFD5B71D61939C00F63503 /* ASIDataDecompressor.m */,
+				18AFD5B81D61939C00F63503 /* ASIDataCompressor.h */,
+				18AFD5B91D61939C00F63503 /* ASIDataCompressor.m */,
+			);
+			name = ASIHttp;
+			sourceTree = "<group>";
+		};
+		838BA5E0E0C290084975964C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				186615101D6169A8006CF68F /* SystemConfiguration.framework */,
+				1866150E1D6168CB006CF68F /* MobileCoreServices.framework */,
+				1866150C1D6168BC006CF68F /* CoreGraphics.framework */,
+				1866150A1D6168B4006CF68F /* CFNetwork.framework */,
+				186615081D616803006CF68F /* ASIHTTPRequest.framework */,
+				1826A0561D41D7E300D483DB /* Protocol.framework */,
+				1826A05D1D41FAD000D483DB /* libz.tbd */,
+				1826A05B1D41FA6600D483DB /* Foundation.framework */,
+				1826A0591D41FA5D00D483DB /* UIKit.framework */,
+				0F6A2820087F50483B994620 /* Pods_MedicineBox.framework */,
+				DABF3D445D4BA4F50F7B2C00 /* Pods_MedicineBoxTests.framework */,
+				3AC95219CFA3FDC01EB75E39 /* Pods_MedicineBoxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D181862FB647ADE23CD5B416 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A203F1826ACDA0C9563D79C /* Pods-MedicineBox.debug.xcconfig */,
+				4857A6E81A9A44EB432E6544 /* Pods-MedicineBox.release.xcconfig */,
+				4289AF59CCACEDE3D0DBC608 /* Pods-MedicineBoxTests.debug.xcconfig */,
+				F966BD55AC8FACF49872A30F /* Pods-MedicineBoxTests.release.xcconfig */,
+				ED6363952B8C7C695424292D /* Pods-MedicineBoxUITests.debug.xcconfig */,
+				8AB662583FF3C972B781A4F1 /* Pods-MedicineBoxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184928341D3F115D006D2D1C /* MedicineBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1849285D1D3F115D006D2D1C /* Build configuration list for PBXNativeTarget "MedicineBox" */;
+			buildPhases = (
+				98F88CE4315F9115CAA6F839 /* [CP] Check Pods Manifest.lock */,
+				184928311D3F115D006D2D1C /* Sources */,
+				184928321D3F115D006D2D1C /* Frameworks */,
+				184928331D3F115D006D2D1C /* Resources */,
+				DB3181906A1597DF2EAD1818 /* [CP] Embed Pods Frameworks */,
+				5E1540169159EE6C97CD71CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicineBox;
+			productName = MedicineBox;
+			productReference = 184928351D3F115D006D2D1C /* MedicineBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184928481D3F115D006D2D1C /* MedicineBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184928601D3F115D006D2D1C /* Build configuration list for PBXNativeTarget "MedicineBoxTests" */;
+			buildPhases = (
+				C3232A4DC33FFE77B68E522F /* [CP] Check Pods Manifest.lock */,
+				184928451D3F115D006D2D1C /* Sources */,
+				184928461D3F115D006D2D1C /* Frameworks */,
+				184928471D3F115D006D2D1C /* Resources */,
+				19A097E81089650D846B25B6 /* [CP] Embed Pods Frameworks */,
+				20D5FB3A02B68CBB2331B56D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1849284B1D3F115D006D2D1C /* PBXTargetDependency */,
+			);
+			name = MedicineBoxTests;
+			productName = MedicineBoxTests;
+			productReference = 184928491D3F115D006D2D1C /* MedicineBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184928531D3F115D006D2D1C /* MedicineBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184928631D3F115D006D2D1C /* Build configuration list for PBXNativeTarget "MedicineBoxUITests" */;
+			buildPhases = (
+				A4569A1A15254D3412870F7C /* [CP] Check Pods Manifest.lock */,
+				184928501D3F115D006D2D1C /* Sources */,
+				184928511D3F115D006D2D1C /* Frameworks */,
+				184928521D3F115D006D2D1C /* Resources */,
+				53C33BF27CE35D6C50630369 /* [CP] Copy Pods Resources */,
+				BAB2C36187229BB44304AB62 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184928561D3F115D006D2D1C /* PBXTargetDependency */,
+			);
+			name = MedicineBoxUITests;
+			productName = MedicineBoxUITests;
+			productReference = 184928541D3F115D006D2D1C /* MedicineBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1849282D1D3F115D006D2D1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jxm;
+				TargetAttributes = {
+					184928341D3F115D006D2D1C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y9722ESS32;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					184928481D3F115D006D2D1C = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+						TestTargetID = 184928341D3F115D006D2D1C;
+					};
+					184928531D3F115D006D2D1C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y9722ESS32;
+						LastSwiftMigration = 0830;
+						TestTargetID = 184928341D3F115D006D2D1C;
+					};
+				};
+			};
+			buildConfigurationList = 184928301D3F115D006D2D1C /* Build configuration list for PBXProject "MedicineBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1849282C1D3F115D006D2D1C;
+			productRefGroup = 184928361D3F115D006D2D1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184928341D3F115D006D2D1C /* MedicineBox */,
+				184928481D3F115D006D2D1C /* MedicineBoxTests */,
+				184928531D3F115D006D2D1C /* MedicineBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184928331D3F115D006D2D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1849295D1D3F12DF006D2D1C /* 账号小人@2x.png in Resources */,
+				184929601D3F12DF006D2D1C /* 输入框不可按@2x.png in Resources */,
+				184929981D3F12DF006D2D1C /* 注册，登陆按钮@3x.png in Resources */,
+				1849291D1D3F12DF006D2D1C /* 列表框@2x.png in Resources */,
+				184929421D3F12DF006D2D1C /* 注册，登陆按钮按下@2x.png in Resources */,
+				185DACCA1D64951200550063 /* SchemeTimeTableViewCell.xib in Resources */,
+				184929641D3F12DF006D2D1C /* 返回ICON按下@2x.png in Resources */,
+				187BD8AA1D4B06DC00D28610 /* 短信推送分割线@3x.png in Resources */,
+				184929AB1D3F12DF006D2D1C /* 蓝底右箭头按下@3x.png in Resources */,
+				1849298A1D3F12DF006D2D1C /* 按时取药@3x.png in Resources */,
+				1849298C1D3F12DF006D2D1C /* 日历ICON选中@3x.png in Resources */,
+				184929C01D3F12DF006D2D1C /* 配置WIFI图标@3x.png in Resources */,
+				184929991D3F12DF006D2D1C /* 注册，登陆按钮按下@3x.png in Resources */,
+				184929AA1D3F12DF006D2D1C /* 蓝底右箭头@3x.png in Resources */,
+				1880C92B1D5C6D9100CFC299 /* 右上角默认头像@2x.png in Resources */,
+				184929191D3F12DF006D2D1C /* 减一个@2x.png in Resources */,
+				184929631D3F12DF006D2D1C /* 返回ICON@2x.png in Resources */,
+				1849294C1D3F12DF006D2D1C /* 药箱ICON@2x.png in Resources */,
+				187BD8A71D4B06DC00D28610 /* 短信ICON按下@2x.png in Resources */,
+				184929A91D3F12DF006D2D1C /* 获取验证码按钮按下@3x.png in Resources */,
+				184929891D3F12DF006D2D1C /* 扫码边框@3x.png in Resources */,
+				1849298D1D3F12DF006D2D1C /* 日历右箭头@3x.png in Resources */,
+				1849298E1D3F12DF006D2D1C /* 日历右箭头按下@3x.png in Resources */,
+				1849297B1D3F12DF006D2D1C /* 定时提醒ICON@3x.png in Resources */,
+				184929621D3F12DF006D2D1C /* 输入框选中状态@2x.png in Resources */,
+				184929781D3F12DF006D2D1C /* 加一个按下@3x.png in Resources */,
+				184929841D3F12DF006D2D1C /* 延时取药@3x.png in Resources */,
+				184929B71D3F12DF006D2D1C /* 输入框不可按@3x.png in Resources */,
+				184929B31D3F12DF006D2D1C /* 设置ICON按下@3x.png in Resources */,
+				184929371D3F12DF006D2D1C /* 日历右箭头按下@2x.png in Resources */,
+				1834109F1D64A79F009A10A4 /* BirthView.xib in Resources */,
+				184929831D3F12DF006D2D1C /* 已连接按钮按下@3x.png in Resources */,
+				1849291F1D3F12DF006D2D1C /* 列表竖分割线@2x.png in Resources */,
+				1875F5C71D5C2F4900227030 /* DSLCalendarMonthSelectorView.xib in Resources */,
+				187BD8A91D4B06DC00D28610 /* 短信推送分割线@2x.png in Resources */,
+				184929231D3F12DF006D2D1C /* 定时底框@2x.png in Resources */,
+				184929471D3F12DF006D2D1C /* 知道了框按下@2x.png in Resources */,
+				184929271D3F12DF006D2D1C /* 定时重复没选中@2x.png in Resources */,
+				184929851D3F12DF006D2D1C /* 当前时间选中圈@3x.png in Resources */,
+				184929791D3F12DF006D2D1C /* 右上角显示头像区域@3x.png in Resources */,
+				184929A21D3F12DF006D2D1C /* 药品图片显示区域@3x.png in Resources */,
+				184929C31D3F12DF006D2D1C /* 验证码输入框常态@3x.png in Resources */,
+				1849293F1D3F12DF006D2D1C /* 没有编辑提示小红点@2x.png in Resources */,
+				1849296F1D3F12DF006D2D1C /* 个人信息头像显示区域@3x.png in Resources */,
+				184929721D3F12DF006D2D1C /* 列表显示头像区域@3x.png in Resources */,
+				18603EA21D65CC84002859A4 /* 显示当前日期@2x.png in Resources */,
+				1849293D1D3F12DF006D2D1C /* 显示路由器框@2x.png in Resources */,
+				1875F5CC1D5C2F4900227030 /* DSLCalendarDayCalloutView.xib in Resources */,
+				1849294B1D3F12DF006D2D1C /* 药品图片显示区域@2x.png in Resources */,
+				186614D71D5F2E46006CF68F /* 相框1.png in Resources */,
+				187BD8A61D4B06DC00D28610 /* 添加手机按钮按下@3x.png in Resources */,
+				18AFD5C21D61A1FF00F63503 /* WIFI配置@3x.png in Resources */,
+				184929671D3F12DF006D2D1C /* 选择药品箭头@2x.png in Resources */,
+				184929BD1D3F12DF006D2D1C /* 选中蓝底@3x.png in Resources */,
+				184929921D3F12DF006D2D1C /* 显示密码@3x.png in Resources */,
+				1849297F1D3F12DF006D2D1C /* 定时重复选中@3x.png in Resources */,
+				184929A31D3F12DF006D2D1C /* 药箱ICON@3x.png in Resources */,
+				DB2CE51D1EC94B4A003BCB7D /* ？@2x.png in Resources */,
+				1849298F1D3F12DF006D2D1C /* 日历左箭头@3x.png in Resources */,
+				1849295E1D3F12DF006D2D1C /* 资料编辑ICON@2x.png in Resources */,
+				187BD8981D4B06DC00D28610 /* 删除手机按钮@3x.png in Resources */,
+				DB2CE5221EC94B4A003BCB7D /* 删除按钮按下@3x.png in Resources */,
+				1880C92A1D5C6D9100CFC299 /* 默认头像@3x.png in Resources */,
+				184929881D3F12DF006D2D1C /* 扫描横条@3x.png in Resources */,
+				184929591D3F12DF006D2D1C /* 记录切换时间左箭头按下@2x.png in Resources */,
+				184929811D3F12DF006D2D1C /* 密码锁@3x.png in Resources */,
+				184929731D3F12DF006D2D1C /* 列表栏@3x.png in Resources */,
+				184929761D3F12DF006D2D1C /* 列表竖分割线@3x.png in Resources */,
+				184929521D3F12DF006D2D1C /* 获取验证码按钮按下@2x.png in Resources */,
+				1875F5D11D5C2FB200227030 /* 弹框关闭icon按下@2x.png in Resources */,
+				184929221D3F12DF006D2D1C /* 右上角显示头像区域@2x.png in Resources */,
+				184929351D3F12DF006D2D1C /* 日历ICON选中@2x.png in Resources */,
+				184929501D3F12DF006D2D1C /* 药箱记录标题@2x.png in Resources */,
+				184929AE1D3F12DF006D2D1C /* 记录切换时间右箭头按下@3x.png in Resources */,
+				0B983B152091BEE400DC49AA /* 日历选中按钮@2x.png in Resources */,
+				184928431D3F115D006D2D1C /* LaunchScreen.storyboard in Resources */,
+				184929491D3F12DF006D2D1C /* 背景@2x.png in Resources */,
+				184929BA1D3F12DF006D2D1C /* 返回ICON@3x.png in Resources */,
+				184929A11D3F12DF006D2D1C /* 药品信息框@3x.png in Resources */,
+				1849295F1D3F12DF006D2D1C /* 资料编辑ICON选中@2x.png in Resources */,
+				184929B21D3F12DF006D2D1C /* 设置ICON@3x.png in Resources */,
+				1849299D1D3F12DF006D2D1C /* 知道了框@3x.png in Resources */,
+				184929661D3F12DF006D2D1C /* 选中蓝底@2x.png in Resources */,
+				DB2CE5241EC94B4A003BCB7D /* 设备信息icon@3x.png in Resources */,
+				184929201D3F12DF006D2D1C /* 加一个@2x.png in Resources */,
+				18B0A3001D79712B008165D7 /* error_list.plist in Resources */,
+				184929801D3F12DF006D2D1C /* 密码显示小球@3x.png in Resources */,
+				187BD8A81D4B06DC00D28610 /* 短信ICON按下@3x.png in Resources */,
+				1849296B1D3F12DF006D2D1C /* 验证码不可按@2x.png in Resources */,
+				1849297E1D3F12DF006D2D1C /* 定时重复没选中@3x.png in Resources */,
+				184929571D3F12DF006D2D1C /* 记录切换时间右箭头按下@2x.png in Resources */,
+				184929741D3F12DF006D2D1C /* 列表框@3x.png in Resources */,
+				187BD89D1D4B06DC00D28610 /* 微信推送背景框@2x.png in Resources */,
+				1875F5DD1D5C32C300227030 /* RecordTableViewCell.xib in Resources */,
+				184929301D3F12DF006D2D1C /* 扫描ICON按下@2x.png in Resources */,
+				1849294F1D3F12DF006D2D1C /* 药箱记录ICON选中@2x.png in Resources */,
+				1849296E1D3F12DF006D2D1C /* logo@3x.png in Resources */,
+				184929B11D3F12DF006D2D1C /* 记录竖分割线@3x.png in Resources */,
+				18B0A2FF1D77D512008165D7 /* EDDateSetView.xib in Resources */,
+				184929511D3F12DF006D2D1C /* 获取验证码按钮常态@2x.png in Resources */,
+				1849299E1D3F12DF006D2D1C /* 知道了框按下@3x.png in Resources */,
+				184929B91D3F12DF006D2D1C /* 输入框选中状态@3x.png in Resources */,
+				187BD89A1D4B06DC00D28610 /* 删除手机按钮按下@3x.png in Resources */,
+				184929B61D3F12DF006D2D1C /* 资料编辑ICON选中@3x.png in Resources */,
+				184929AD1D3F12DF006D2D1C /* 记录切换时间右箭头@3x.png in Resources */,
+				184929171D3F12DF006D2D1C /* logo@2x.png in Resources */,
+				184929A41D3F12DF006D2D1C /* 药箱ICON选中@3x.png in Resources */,
+				187BD89F1D4B06DC00D28610 /* 提示周期选中@2x.png in Resources */,
+				1849296A1D3F12DF006D2D1C /* 配置小球@2x.png in Resources */,
+				DB6695281EF777F300CB12CB /* hotelcity.json in Resources */,
+				1849296C1D3F12DF006D2D1C /* 验证码输入框常态@2x.png in Resources */,
+				DB2CE5211EC94B4A003BCB7D /* 删除按钮按下@2x.png in Resources */,
+				1849292F1D3F12DF006D2D1C /* 扫描ICON@2x.png in Resources */,
+				184929931D3F12DF006D2D1C /* 显示密码按下@3x.png in Resources */,
+				184929A01D3F12DF006D2D1C /* 背景@3x.png in Resources */,
+				184929A61D3F12DF006D2D1C /* 药箱记录ICON选中@3x.png in Resources */,
+				1849291C1D3F12DF006D2D1C /* 列表栏@2x.png in Resources */,
+				184929331D3F12DF006D2D1C /* 按时取药@2x.png in Resources */,
+				1849293B1D3F12DF006D2D1C /* 显示密码@2x.png in Resources */,
+				1849295A1D3F12DF006D2D1C /* 记录竖分割线@2x.png in Resources */,
+				18AFD5C31D61A1FF00F63503 /* WIFI配置@2x.png in Resources */,
+				184929751D3F12DF006D2D1C /* 列表横分割线@3x.png in Resources */,
+				1849295C1D3F12DF006D2D1C /* 设置ICON按下@2x.png in Resources */,
+				184929381D3F12DF006D2D1C /* 日历左箭头@2x.png in Resources */,
+				184929651D3F12DF006D2D1C /* 选中圈@2x.png in Resources */,
+				187BD8CD1D51CA2C00D28610 /* QRScan1.xib in Resources */,
+				185DACC41D640C7700550063 /* 日历面板@2x.png in Resources */,
+				187BD89E1D4B06DC00D28610 /* 微信推送背景框@3x.png in Resources */,
+				184929481D3F12DF006D2D1C /* 编辑信息头像底框@2x.png in Resources */,
+				184929551D3F12DF006D2D1C /* 角标@2x.png in Resources */,
+				1849293E1D3F12DF006D2D1C /* 没有取药@2x.png in Resources */,
+				1849297A1D3F12DF006D2D1C /* 定时底框@3x.png in Resources */,
+				184928401D3F115D006D2D1C /* Assets.xcassets in Resources */,
+				1849299A1D3F12DF006D2D1C /* 添加ICON@3x.png in Resources */,
+				184929681D3F12DF006D2D1C /* 选择药品箭头右箭头@2x.png in Resources */,
+				184929BB1D3F12DF006D2D1C /* 返回ICON按下@3x.png in Resources */,
+				DB2CE51F1EC94B4A003BCB7D /* 删除按钮@2x.png in Resources */,
+				1849292E1D3F12DF006D2D1C /* 当前时间选中圈@2x.png in Resources */,
+				184929321D3F12DF006D2D1C /* 扫码边框@2x.png in Resources */,
+				1849283E1D3F115D006D2D1C /* Main.storyboard in Resources */,
+				1849292C1D3F12DF006D2D1C /* 已连接按钮按下@2x.png in Resources */,
+				DB6695291EF777F300CB12CB /* address.json in Resources */,
+				184929941D3F12DF006D2D1C /* 显示路由器框@3x.png in Resources */,
+				184929241D3F12DF006D2D1C /* 定时提醒ICON@2x.png in Resources */,
+				18A66BF91D49F443006B4C65 /* EatDrugTableViewCell.xib in Resources */,
+				184929771D3F12DF006D2D1C /* 加一个@3x.png in Resources */,
+				184929261D3F12DF006D2D1C /* 定时重复时间框@2x.png in Resources */,
+				184929701D3F12DF006D2D1C /* 减一个@3x.png in Resources */,
+				187BD8A31D4B06DC00D28610 /* 添加手机按钮@2x.png in Resources */,
+				184929461D3F12DF006D2D1C /* 知道了框@2x.png in Resources */,
+				1849294A1D3F12DF006D2D1C /* 药品信息框@2x.png in Resources */,
+				1849292D1D3F12DF006D2D1C /* 延时取药@2x.png in Resources */,
+				1849291A1D3F12DF006D2D1C /* 减一个按下@2x.png in Resources */,
+				1849296D1D3F12DF006D2D1C /* 验证码输入框选中@2x.png in Resources */,
+				184929B41D3F12DF006D2D1C /* 账号小人@3x.png in Resources */,
+				184929821D3F12DF006D2D1C /* 已连接按钮@3x.png in Resources */,
+				184929901D3F12DF006D2D1C /* 日历左箭头按下@3x.png in Resources */,
+				1880C92C1D5C6D9100CFC299 /* 右上角默认头像@3x.png in Resources */,
+				184929861D3F12DF006D2D1C /* 扫描ICON@3x.png in Resources */,
+				1826A0601D420C1B00D483DB /* LogResForViews.xib in Resources */,
+				187BD8CB1D51CA2C00D28610 /* 扫码框@2x.png in Resources */,
+				184929BC1D3F12DF006D2D1C /* 选中圈@3x.png in Resources */,
+				1849298B1D3F12DF006D2D1C /* 日历ICON.@3x.png in Resources */,
+				187BD89B1D4B06DC00D28610 /* 微信ICON@2x.png in Resources */,
+				184929B01D3F12DF006D2D1C /* 记录切换时间左箭头按下@3x.png in Resources */,
+				187BD8A51D4B06DC00D28610 /* 添加手机按钮按下@2x.png in Resources */,
+				184929C11D3F12DF006D2D1C /* 配置小球@3x.png in Resources */,
+				187BD89C1D4B06DC00D28610 /* 微信ICON@3x.png in Resources */,
+				1875F5D01D5C2FB200227030 /* 弹框关闭icon@2x.png in Resources */,
+				1849299C1D3F12DF006D2D1C /* 登陆注册背景@3x.png in Resources */,
+				187BD8A01D4B06DC00D28610 /* 提示周期选中@3x.png in Resources */,
+				18A66BDF1D45C0F9006B4C65 /* 标题栏阴影@3x.png in Resources */,
+				1849297D1D3F12DF006D2D1C /* 定时重复时间框@3x.png in Resources */,
+				187BD8AC1D4B06DC00D28610 /* 短信推送背景框@3x.png in Resources */,
+				1875F5D61D5C301E00227030 /* DateTimeView.xib in Resources */,
+				184929431D3F12DF006D2D1C /* 添加ICON@2x.png in Resources */,
+				187BD8A11D4B06DC00D28610 /* 提醒周期背框@2x.png in Resources */,
+				1882CE4D1D5C6BA3004E8B0C /* MyCalendar.xib in Resources */,
+				184929711D3F12DF006D2D1C /* 减一个按下@3x.png in Resources */,
+				184929361D3F12DF006D2D1C /* 日历右箭头@2x.png in Resources */,
+				1849295B1D3F12DF006D2D1C /* 设置ICON@2x.png in Resources */,
+				187BD8971D4B06DC00D28610 /* 删除手机按钮@2x.png in Resources */,
+				184929BF1D3F12DF006D2D1C /* 选择药品箭头右箭头@3x.png in Resources */,
+				184929951D3F12DF006D2D1C /* 没有取药@3x.png in Resources */,
+				184929251D3F12DF006D2D1C /* 定时提醒ICON选中@2x.png in Resources */,
+				184929B51D3F12DF006D2D1C /* 资料编辑ICON@3x.png in Resources */,
+				1849297C1D3F12DF006D2D1C /* 定时提醒ICON选中@3x.png in Resources */,
+				184929181D3F12DF006D2D1C /* 个人信息头像显示区域@2x.png in Resources */,
+				187BD8A41D4B06DC00D28610 /* 添加手机按钮@3x.png in Resources */,
+				187BD8AB1D4B06DC00D28610 /* 短信推送背景框@2x.png in Resources */,
+				184929AF1D3F12DF006D2D1C /* 记录切换时间左箭头@3x.png in Resources */,
+				DB2CE5231EC94B4A003BCB7D /* 设备信息icon@2x.png in Resources */,
+				184929C71D3F338E006D2D1C /* LogResForView.xib in Resources */,
+				184929A51D3F12DF006D2D1C /* 药箱记录ICON@3x.png in Resources */,
+				1849293A1D3F12DF006D2D1C /* 日历底版@2x.png in Resources */,
+				184929291D3F12DF006D2D1C /* 密码显示小球@2x.png in Resources */,
+				187BD8A21D4B06DC00D28610 /* 提醒周期背框@3x.png in Resources */,
+				187BD8991D4B06DC00D28610 /* 删除手机按钮按下@2x.png in Resources */,
+				184929531D3F12DF006D2D1C /* 蓝底右箭头@2x.png in Resources */,
+				187BD8CA1D51CA2C00D28610 /* 扫码款条@2x.png in Resources */,
+				DB2CE51E1EC94B4A003BCB7D /* ？@3x.png in Resources */,
+				184929441D3F12DF006D2D1C /* 添加ICON按下@2x.png in Resources */,
+				184929211D3F12DF006D2D1C /* 加一个按下@2x.png in Resources */,
+				184929611D3F12DF006D2D1C /* 输入框常态@2x.png in Resources */,
+				184929411D3F12DF006D2D1C /* 注册，登陆按钮@2x.png in Resources */,
+				1849291B1D3F12DF006D2D1C /* 列表显示头像区域@2x.png in Resources */,
+				1849299F1D3F12DF006D2D1C /* 编辑信息头像底框@3x.png in Resources */,
+				184929561D3F12DF006D2D1C /* 记录切换时间右箭头@2x.png in Resources */,
+				184929911D3F12DF006D2D1C /* 日历底版@3x.png in Resources */,
+				184929311D3F12DF006D2D1C /* 扫描横条@2x.png in Resources */,
+				1849292A1D3F12DF006D2D1C /* 密码锁@2x.png in Resources */,
+				184929971D3F12DF006D2D1C /* 没选中圈@3x.png in Resources */,
+				184929391D3F12DF006D2D1C /* 日历左箭头按下@2x.png in Resources */,
+				1849292B1D3F12DF006D2D1C /* 已连接按钮@2x.png in Resources */,
+				184929BE1D3F12DF006D2D1C /* 选择药品箭头@3x.png in Resources */,
+				184929871D3F12DF006D2D1C /* 扫描ICON按下@3x.png in Resources */,
+				184929451D3F12DF006D2D1C /* 登陆注册背景@2x.png in Resources */,
+				1880C9291D5C6D9100CFC299 /* 默认头像@2x.png in Resources */,
+				1849291E1D3F12DF006D2D1C /* 列表横分割线@2x.png in Resources */,
+				1849299B1D3F12DF006D2D1C /* 添加ICON按下@3x.png in Resources */,
+				184929401D3F12DF006D2D1C /* 没选中圈@2x.png in Resources */,
+				184929541D3F12DF006D2D1C /* 蓝底右箭头按下@2x.png in Resources */,
+				184929B81D3F12DF006D2D1C /* 输入框常态@3x.png in Resources */,
+				184929C41D3F12DF006D2D1C /* 验证码输入框选中@3x.png in Resources */,
+				184929341D3F12DF006D2D1C /* 日历ICON.@2x.png in Resources */,
+				184929AC1D3F12DF006D2D1C /* 角标@3x.png in Resources */,
+				184929581D3F12DF006D2D1C /* 记录切换时间左箭头@2x.png in Resources */,
+				1880C97F1D5DC62700CFC299 /* 验证码不可按@3x.png in Resources */,
+				184929961D3F12DF006D2D1C /* 没有编辑提示小红点@3x.png in Resources */,
+				184929691D3F12DF006D2D1C /* 配置WIFI图标@2x.png in Resources */,
+				18A66BF11D4999C5006B4C65 /* MBoxTableViewCell.xib in Resources */,
+				18A66BE91D473D76006B4C65 /* BoxTableViewCell.xib in Resources */,
+				1849294E1D3F12DF006D2D1C /* 药箱记录ICON@2x.png in Resources */,
+				DB2CE5201EC94B4A003BCB7D /* 删除按钮@3x.png in Resources */,
+				184929281D3F12DF006D2D1C /* 定时重复选中@2x.png in Resources */,
+				184929A81D3F12DF006D2D1C /* 获取验证码按钮常态@3x.png in Resources */,
+				1849293C1D3F12DF006D2D1C /* 显示密码按下@2x.png in Resources */,
+				1849294D1D3F12DF006D2D1C /* 药箱ICON选中@2x.png in Resources */,
+				184929A71D3F12DF006D2D1C /* 药箱记录标题@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184928471D3F115D006D2D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184928521D3F115D006D2D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19A097E81089650D846B25B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicineBoxTests/Pods-MedicineBoxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20D5FB3A02B68CBB2331B56D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicineBoxTests/Pods-MedicineBoxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53C33BF27CE35D6C50630369 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicineBoxUITests/Pods-MedicineBoxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E1540169159EE6C97CD71CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicineBox/Pods-MedicineBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98F88CE4315F9115CAA6F839 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4569A1A15254D3412870F7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAB2C36187229BB44304AB62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicineBoxUITests/Pods-MedicineBoxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3232A4DC33FFE77B68E522F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB3181906A1597DF2EAD1818 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicineBox/Pods-MedicineBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184928311D3F115D006D2D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1875F5C51D5C2F4900227030 /* DSLCalendarView.m in Sources */,
+				1875F5CB1D5C2F4900227030 /* DSLCalendarDayCalloutView.m in Sources */,
+				1826A0401D41D70D00D483DB /* ThreeDES.m in Sources */,
+				1875F5D91D5C30F300227030 /* MyCalendar.m in Sources */,
+				187BD8BF1D51C9D600D28610 /* AsyncSocket.m in Sources */,
+				18A0AFAD1D62C8790012BA45 /* ScanQRCodeVC.swift in Sources */,
+				187BD8C41D51C9D600D28610 /* UdpSocket.m in Sources */,
+				1875F5B31D5C289400227030 /* EatDrugRecordVC.swift in Sources */,
+				187BD8E11D55DE0900D28610 /* Bolloon.m in Sources */,
+				187BD8C31D51C9D600D28610 /* SmartConfig1.m in Sources */,
+				1875F5CA1D5C2F4900227030 /* DSLCalendarRange.m in Sources */,
+				1875F5C81D5C2F4900227030 /* DSLCalendarMonthView.m in Sources */,
+				1826A02B1D41BA8000D483DB /* LoginVIew.swift in Sources */,
+				18A66BE11D45F6F3006B4C65 /* DeviceListVC.swift in Sources */,
+				1824E3B31D815F880050F0CE /* DrugInfoVC.swift in Sources */,
+				1875F5C61D5C2F4900227030 /* DSLCalendarMonthSelectorView.m in Sources */,
+				18FA728E1D732E3000616EA3 /* UIImage+KIAdditions.m in Sources */,
+				1875F5CD1D5C2F4900227030 /* NSDate+DSLCalendarView.m in Sources */,
+				187BD8DE1D55DDA700D28610 /* ConfigViewController.m in Sources */,
+				1826A04D1D41D79200D483DB /* PublicCmdHelper.m in Sources */,
+				18AFD5BC1D61939C00F63503 /* ASIHTTPRequest.m in Sources */,
+				18603EA41D65E8FC002859A4 /* PushSetViewController.swift in Sources */,
+				1875F5C91D5C2F4900227030 /* DSLCalendarDayView.m in Sources */,
+				18AFD5BE1D61939C00F63503 /* ASIDataDecompressor.m in Sources */,
+				18FA72871D732DDD00616EA3 /* ImageSelectView.swift in Sources */,
+				18A66BE81D473D76006B4C65 /* BoxTableViewCell.swift in Sources */,
+				185DACC91D64951200550063 /* SchemeTimeTableViewCell.swift in Sources */,
+				18A66BEB1D4764D1006B4C65 /* SettingVC.swift in Sources */,
+				0BC045B21FF22B7B00597223 /* MyAlertView.swift in Sources */,
+				18A66BF31D49F25F006B4C65 /* EDrugManageVC.swift in Sources */,
+				1875F5D51D5C301E00227030 /* DateTimeView.m in Sources */,
+				18A0AFAB1D62C3F30012BA45 /* EditMedicineInfoVC.swift in Sources */,
+				18B0A2FE1D77D512008165D7 /* EDDateSetView.swift in Sources */,
+				1849283B1D3F115D006D2D1C /* ViewController.swift in Sources */,
+				183410981D64A1E8009A10A4 /* CycleSetView.swift in Sources */,
+				187BD8AE1D51838400D28610 /* PersonInfoVC.swift in Sources */,
+				18603EA61D65EAF8002859A4 /* ChangePwdVC.swift in Sources */,
+				1826A04E1D41D79200D483DB /* SessionManger.m in Sources */,
+				187BD8CC1D51CA2C00D28610 /* QRScanView.swift in Sources */,
+				187BD8C01D51C9D600D28610 /* AsyncUdpSocket.m in Sources */,
+				18A66BED1D489C65006B4C65 /* MBoxManageVC.swift in Sources */,
+				1826A02D1D41BAA700D483DB /* ResFindVIew.swift in Sources */,
+				18AFD5BA1D61939C00F63503 /* ASIAuthenticationDialog.m in Sources */,
+				186614D91D5F315F006CF68F /* ImageNetworkHelper.swift in Sources */,
+				187BD8C21D51C9D600D28610 /* ControlTcpSocket.m in Sources */,
+				1826A0461D41D76000D483DB /* GlobalMethod.m in Sources */,
+				1826A0521D41D7A700D483DB /* AppUpdateByAppStore.m in Sources */,
+				0B829F1D1F0CE65300F46D8F /* PushCMDHelper.m in Sources */,
+				1826A03D1D41D70D00D483DB /* ASIHTTPHelper.m in Sources */,
+				DBE3697B1F03AFF4008D3323 /* CityChooseViewCreater.m in Sources */,
+				0B4E8CB12063C558000B1C5C /* UIViewController+BarButton.m in Sources */,
+				18AFD5BB1D61939C00F63503 /* ASIInputStream.m in Sources */,
+				1826A0471D41D76000D483DB /* MyGlobalData.m in Sources */,
+				184928391D3F115D006D2D1C /* AppDelegate.swift in Sources */,
+				185DACC61D64917900550063 /* EditTimeSchemeVC.swift in Sources */,
+				18FA728D1D732E3000616EA3 /* KICropImageView.m in Sources */,
+				18FA72911D73CCA200616EA3 /* SetUserInfoViewController.m in Sources */,
+				18FA72881D732DDD00616EA3 /* ImageSelect_Delegate.swift in Sources */,
+				DB1816511EC8A840003827CF /* DeviceInfoVC.swift in Sources */,
+				187BD8C11D51C9D600D28610 /* ConfigWifi.m in Sources */,
+				187BD8BE1D51C9D600D28610 /* CMDFactory.m in Sources */,
+				1875F5DC1D5C32C300227030 /* RecordTableViewCell.swift in Sources */,
+				0B77C1461F1855F7007D1495 /* TokenSocket.swift in Sources */,
+				18AFD5BD1D61939C00F63503 /* ASIFormDataRequest.m in Sources */,
+				18A66BDB1D45B985006B4C65 /* LogResFPwdVC.swift in Sources */,
+				0BAE48051F6BCFD400A3692C /* InputDrugInHandVC.swift in Sources */,
+				18603EA81D669B42002859A4 /* BindPhoneVC.swift in Sources */,
+				18AFD5BF1D61939C00F63503 /* ASIDataCompressor.m in Sources */,
+				1836B4BF1D421BD7002CF493 /* UtilSw.swift in Sources */,
+				18A66BF81D49F443006B4C65 /* EatDrugTableViewCell.swift in Sources */,
+				1834109E1D64A79F009A10A4 /* BirthView.m in Sources */,
+				1826A03F1D41D70D00D483DB /* ImageUtils.m in Sources */,
+				1826A0411D41D70D00D483DB /* Util.m in Sources */,
+				18A66BEF1D499992006B4C65 /* MBoxTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184928451D3F115D006D2D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1849284E1D3F115D006D2D1C /* MedicineBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184928501D3F115D006D2D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184928591D3F115D006D2D1C /* MedicineBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1849284B1D3F115D006D2D1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184928341D3F115D006D2D1C /* MedicineBox */;
+			targetProxy = 1849284A1D3F115D006D2D1C /* PBXContainerItemProxy */;
+		};
+		184928561D3F115D006D2D1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184928341D3F115D006D2D1C /* MedicineBox */;
+			targetProxy = 184928551D3F115D006D2D1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1849283C1D3F115D006D2D1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1849283D1D3F115D006D2D1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184928411D3F115D006D2D1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184928421D3F115D006D2D1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		18B0A3021D79712B008165D7 /* error_list.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B0A3011D79712B008165D7 /* Base */,
+			);
+			name = error_list.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1849285B1D3F115D006D2D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Y9722ESS32;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "01e773d7-5843-4bd9-be67-a7defa7958aa";
+				PROVISIONING_PROFILE_SPECIFIER = PackMBox;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1849285C1D3F115D006D2D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y9722ESS32;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "01e773d7-5843-4bd9-be67-a7defa7958aa";
+				PROVISIONING_PROFILE_SPECIFIER = PackMBox;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1849285E1D3F115D006D2D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A203F1826ACDA0C9563D79C /* Pods-MedicineBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MedicineBox/MedicineBox.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y9722ESS32;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				INFOPLIST_FILE = MedicineBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/JPushLib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxm.MedicineBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "215abeff-d392-4b03-b32d-07b538be75cf";
+				PROVISIONING_PROFILE_SPECIFIER = MedicineBoxPack;
+				SWIFT_OBJC_BRIDGING_HEADER = "MedicineBox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1849285F1D3F115D006D2D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4857A6E81A9A44EB432E6544 /* Pods-MedicineBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MedicineBox/MedicineBox.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y9722ESS32;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				INFOPLIST_FILE = MedicineBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/JPushLib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxm.MedicineBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "215abeff-d392-4b03-b32d-07b538be75cf";
+				PROVISIONING_PROFILE_SPECIFIER = MedicineBoxPack;
+				SWIFT_OBJC_BRIDGING_HEADER = "MedicineBox-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		184928611D3F115D006D2D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4289AF59CCACEDE3D0DBC608 /* Pods-MedicineBoxTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MedicineBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxm.MedicineBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicineBox.app/MedicineBox";
+			};
+			name = Debug;
+		};
+		184928621D3F115D006D2D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F966BD55AC8FACF49872A30F /* Pods-MedicineBoxTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MedicineBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxm.MedicineBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicineBox.app/MedicineBox";
+			};
+			name = Release;
+		};
+		184928641D3F115D006D2D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6363952B8C7C695424292D /* Pods-MedicineBoxUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MedicineBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxm.MedicineBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MedicineBox;
+			};
+			name = Debug;
+		};
+		184928651D3F115D006D2D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB662583FF3C972B781A4F1 /* Pods-MedicineBoxUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MedicineBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxm.MedicineBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MedicineBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184928301D3F115D006D2D1C /* Build configuration list for PBXProject "MedicineBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1849285B1D3F115D006D2D1C /* Debug */,
+				1849285C1D3F115D006D2D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1849285D1D3F115D006D2D1C /* Build configuration list for PBXNativeTarget "MedicineBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1849285E1D3F115D006D2D1C /* Debug */,
+				1849285F1D3F115D006D2D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184928601D3F115D006D2D1C /* Build configuration list for PBXNativeTarget "MedicineBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184928611D3F115D006D2D1C /* Debug */,
+				184928621D3F115D006D2D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184928631D3F115D006D2D1C /* Build configuration list for PBXNativeTarget "MedicineBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184928641D3F115D006D2D1C /* Debug */,
+				184928651D3F115D006D2D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1849282D1D3F115D006D2D1C /* Project object */;
+}

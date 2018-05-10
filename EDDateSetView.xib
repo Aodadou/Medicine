@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="30J-yd-ZVF" customClass="EDDateSetView" customModule="MedicineBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="pUU-wl-zaX">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="448"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="ACtionClose:" destination="30J-yd-ZVF" eventType="touchUpInside" id="qYo-nO-2nA"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" misplaced="YES" id="KUG-bN-pTD">
+                    <rect key="frame" x="0.0" y="562" width="375" height="111"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <pickerView tag="2" contentMode="scaleToFill" misplaced="YES" id="Wxv-b4-Ko6">
+                    <rect key="frame" x="122" y="321" width="130" height="263"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="30J-yd-ZVF" id="lej-P4-GHk"/>
+                        <outlet property="delegate" destination="30J-yd-ZVF" id="QL0-IE-vKc"/>
+                    </connections>
+                </pickerView>
+                <pickerView tag="3" contentMode="scaleToFill" misplaced="YES" id="PvO-YP-xC9">
+                    <rect key="frame" x="250" y="321" width="125" height="263"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="30J-yd-ZVF" id="W1K-I9-5K6"/>
+                        <outlet property="delegate" destination="30J-yd-ZVF" id="wrk-Zv-kEv"/>
+                    </connections>
+                </pickerView>
+                <pickerView tag="1" contentMode="scaleToFill" misplaced="YES" id="511-Nd-iVq">
+                    <rect key="frame" x="0.0" y="321" width="124" height="263"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="30J-yd-ZVF" id="T4B-Qj-Sz3"/>
+                        <outlet property="delegate" destination="30J-yd-ZVF" id="SHH-Zx-ca5"/>
+                    </connections>
+                </pickerView>
+                <button hidden="YES" opaque="NO" tag="10" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kYl-DV-Cqe">
+                    <rect key="frame" x="314" y="336" width="54" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="完成"/>
+                    <connections>
+                        <action selector="ACtionClose:" destination="30J-yd-ZVF" eventType="touchUpInside" id="rZf-3B-ENt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="P5q-th-pbu">
+                    <rect key="frame" x="0.0" y="590" width="375" height="35"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <state key="normal" title="确定"/>
+                    <connections>
+                        <action selector="actionSure:" destination="30J-yd-ZVF" eventType="touchUpInside" id="YIP-hp-yl1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sAR-cf-BDv">
+                    <rect key="frame" x="0.0" y="630" width="375" height="35"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" red="1" green="0.11044218140000001" blue="0.045380558389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="actionCancel:" destination="30J-yd-ZVF" eventType="touchUpInside" id="9Ba-9J-SMZ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="pickDate" destination="PvO-YP-xC9" id="OHS-Wa-tqR"/>
+                <outlet property="pickMonth" destination="Wxv-b4-Ko6" id="6Kf-TS-QZ0"/>
+                <outlet property="pickYear" destination="511-Nd-iVq" id="SgH-Am-YfB"/>
+            </connections>
+            <point key="canvasLocation" x="295.5" y="369.5"/>
+        </view>
+    </objects>
+</document>
